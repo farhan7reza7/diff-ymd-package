@@ -2,7 +2,7 @@
 name: Discussion request
 about: Suggest required discussion(ask questions) for  the project
 title: "[Discussion] "
-labels: questions
+labels: question
 ---
 
 # GENERAL DISCUSSION TEMPLATE:
