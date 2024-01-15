@@ -1,8 +1,8 @@
 ---
-name: Bug Report
-about: Report a bug encountered in the project
-title: "[Bug] "
-labels: bug
+name: Discussion request
+about: Suggest required discussion(ask questions) for  the project
+title: "[Discussion] "
+labels: questions
 ---
 
 # GENERAL DISCUSSION TEMPLATE:
