@@ -73,12 +73,12 @@ If you find any issues or have suggestions for improvement, please open an issue
 
 ## License
 - This project is licensed under the MIT License - see the LICENSE file for details.
-- [License here](https://github.com/farhan7reza7/diff-ymd-package/blob/main/LICENSE)
+[License here](https://github.com/farhan7reza7/diff-ymd-package/blob/main/LICENSE)
 
-## Additional Notes
+## Important Links
 
-- For more details about what has changed in each version of this project, please see the CHANGELOG.
-- [CHANGELOG here](https://github.com/farhan7reza7/diff-ymd-package/blob/main/CHANGELOG.md)
+- For more details about what has changed in each version of this project, please see the CHANGELOG.  
+[CHANGELOG here](https://github.com/farhan7reza7/diff-ymd-package/blob/main/CHANGELOG.md)
 
 
 
