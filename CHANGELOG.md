@@ -13,22 +13,15 @@ and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 - Includes methods for creating instances, calculating differences, and formatting results.
 - Unit tests using Jest for comprehensive testing.
 
-## [Next Release] - [Planning Release Date]
+## [v1.0.0-beta.1] - 2024-01-15 5:15 pm
 
-### Added
+## [Just Next Release][v1.0.0] - 2024-01-15
 
-- [Any features or enhancements planned for the next release.]
+## [Next Release] - Planning release time
 
-### Fixed
+## Important changes links:
 
-- [Any issues or bugs you plan to fix in the next release.]
-
-### Changed
-
-- [Any planned backward-compatible changes.]
-
-### Important versions:
-
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/main...HEAD)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.0-beta.1...HEAD)
+- [v1.0.0-beta.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.0-beta.1)
 - [v1.0.0](https://github.com/farhan7reza7/diff-ymd-package/milestone/1)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
