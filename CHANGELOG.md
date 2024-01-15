@@ -41,6 +41,6 @@ and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 
 - [Any planned backward-compatible changes.]
 
-[Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/0.1.0...HEAD)
-[0.1.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/0.1.0)
-[Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/1)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/0.1.0...HEAD)
+- [0.1.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/0.1.0)
+- [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/1)
