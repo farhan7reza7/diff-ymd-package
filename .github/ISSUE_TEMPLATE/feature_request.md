@@ -2,7 +2,7 @@
 name: New Feature 
 about: Suggest required feature for the project
 title: "[Feature] "
-labels: Features enhancement
+labels: enhancement
 ---
 
 # Feature_Request:
