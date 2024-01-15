@@ -1,8 +1,8 @@
 ---
-name: Bug Report3
-about: Report a bug encountered in the project
-title: "[Bug] "
-labels: bug
+name: New Feature 
+about: Suggest required feature for the project
+title: "[Feature] "
+labels: Features enhancement
 ---
 
 # Feature_Request:
