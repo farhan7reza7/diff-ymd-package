@@ -1,5 +1,5 @@
 # .github/ISSUE_TEMPLATE/config.yml
 
 templates:
-  feature_request: .github/ISSUE_TEMPLATE/feature_request.md
-  discussion: .github/ISSUE_TEMPLATE/discussion.md
+  feature_request: feature_request.md
+  discussion: discussion.md
