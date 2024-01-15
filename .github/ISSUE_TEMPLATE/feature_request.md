@@ -1,3 +1,10 @@
+---
+name: Bug Report3
+about: Report a bug encountered in the project
+title: "[Bug] "
+labels: bug
+---
+
 # Feature_Request:
 
 If you have ideas for new features or improvements, please share them here. We value your input!
