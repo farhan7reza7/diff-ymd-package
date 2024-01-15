@@ -15,13 +15,12 @@ and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 
 ## [v1.0.0-beta.1] - 2024-01-15 5:15 pm
 
-## [Just Next Release][v1.0.0] - 2024-01-15
+## [v1.0.0] - 2024-01-15 9:30 pm🕤
 
 ## [Next Release] - Planning release time
 
 ## Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.0-beta.1...HEAD)
-- [v1.0.0-beta.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.0-beta.1)
-- [v1.0.0](https://github.com/farhan7reza7/diff-ymd-package/milestone/1)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.0...HEAD)
+- [v1.0.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.0)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
