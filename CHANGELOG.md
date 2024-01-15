@@ -13,20 +13,6 @@ and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 - Includes methods for creating instances, calculating differences, and formatting results.
 - Unit tests using Jest for comprehensive testing.
 
-## [0.1.0] - YYYY-MM-DD
-
-### Added
-
-- Feature: Calculate the difference between two dates and return formatted results.
-
-### Fixed
-
-- [Any issues or bugs you have fixed in this version, if applicable.]
-
-### Changed
-
-- [Any notable changes that are backward-compatible.]
-
 ## [Next Release] - [Planning Release Date]
 
 ### Added
@@ -41,6 +27,7 @@ and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 
 - [Any planned backward-compatible changes.]
 
+### Important versions:
+
 - [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/0.1.0...HEAD)
-- [0.1.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/0.1.0)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/1)
