@@ -1,3 +1,10 @@
+---
+name: Bug Report
+about: Report a bug encountered in the project
+title: "[Bug] "
+labels: bug
+---
+
 # Welcome to the Issues Page for diff-ymd-package
 
 If you encounter any problems, bugs, or have suggestions for improvement, please report them here. We appreciate your feedback!
