@@ -1,0 +1,21 @@
+{
+  "source": {
+    "include": ["./src/"]
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true,
+    "encoding": "utf8"
+  },
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  },
+  "plugins": [],
+  "recurseDepth": 10,
+  "sourceType": "module"
+}
