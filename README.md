@@ -16,7 +16,7 @@ npm install my-api-package
 ## Usage
 
 ```javascript
-const DatesYMD = require('diff-ymd-package');
+const DatesYMD = require('@farhan7reza7/diff-ymd-package');
 
 const date1 = '2022-01-01';
 const date2 = '2023-12-31';
