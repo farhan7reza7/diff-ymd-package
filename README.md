@@ -9,7 +9,7 @@ diff-ymd-package provides api to difference dates in formatted ways(like (aYears
 ## Installation
 
 ```bash
-npm install my-api-package
+npm install diff-ymd-package
 
 ```
 
