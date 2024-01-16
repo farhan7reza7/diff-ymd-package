@@ -9,14 +9,14 @@ diff-ymd-package provides api to difference dates in formatted ways(like (aYears
 ## Installation
 
 ```bash
-npm install diff-ymd-package
+npm install @farhan7reza/diff-ymd-package
 
 ```
 
 ## Usage
 
 ```javascript
-const DatesYMD = require('diff-ymd-package');
+const DatesYMD = require('@farhan7reza/diff-ymd-package');
 
 const date1 = '2022-01-01';
 const date2 = '2023-12-31';
