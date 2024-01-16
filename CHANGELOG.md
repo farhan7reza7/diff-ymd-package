@@ -1,11 +1,11 @@
-# Changelog 
+## Changelog 
 
 All notable changes to  diff-ymd-package will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html),
 and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 
-## [Unreleased] - 2024-01-15
+### [Unreleased] - 2024-01-15
 
-### Added
+#### Added
 
 - Initial implementation of the DatesYMD utility class.
 - Support for date formats 'yyyy-mm-dd', 'yyyy/mm/dd', and 'yyyy.mm.dd'.
@@ -13,19 +13,29 @@ and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 - Includes methods for creating instances, calculating differences, and formatting results.
 - Unit tests using Jest for comprehensive testing.
 
-## [v1.0.0-beta.1] - 2024-01-15 5:15 pm
+### [v1.0.0-beta.1] - 2024-01-15 5:15 pm
 
-## [v1.0.0-beta.1] - 2024-01-15 9:30 pm🕤
+### [v1.0.0-beta.1] - 2024-01-15 9:30 pm🕤
 
-## [v1.0.0] - 2024-01-16
+### [v1.0.0] - 2024-01-16
 
-### Fixed
+#### Fixed
 fixed some prerequisites for making package available on npm through "Github Packages" 
 
-## [Next Release] - Planning release time
+### [v1.0.1] - 2024-01-16
 
-## Important changes links:
+#### Fixed
+fixed some issues and configured files for v1.0.1
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.1...HEAD)
-- [v1.0.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.1)
+### [v1.0.2] - 2024-01-16
+
+#### Fixed
+fixed some issues and configured files for v1.0.2
+
+### [Next Release] - Planning release time
+
+### Important changes links:
+
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.2...HEAD)
+- [v1.0.2](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.2)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
