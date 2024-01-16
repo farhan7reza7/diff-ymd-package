@@ -15,12 +15,17 @@ and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 
 ## [v1.0.0-beta.1] - 2024-01-15 5:15 pm
 
-## [v1.0.0] - 2024-01-15 9:30 pm🕤
+## [v1.0.0-beta.1] - 2024-01-15 9:30 pm🕤
+
+## [v1.0.0] - 2024-01-16
+
+### Fixed
+fixed some prerequisites for making package available on npm through "Github Packages" 
 
 ## [Next Release] - Planning release time
 
 ## Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.0...HEAD)
-- [v1.0.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.0)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.1...HEAD)
+- [v1.0.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.1)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
