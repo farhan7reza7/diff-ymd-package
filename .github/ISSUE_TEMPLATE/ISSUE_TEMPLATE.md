@@ -1,5 +1,5 @@
 ---
-name: Issue report
+name: Other issue
 about: Report an issue encountered in this project
 title: "[ISSUE] "
 labels: ["help wanted"]
