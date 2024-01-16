@@ -1,4 +1,3 @@
-
 ---
 name: Bug report
 about: Report a bug encountered in this project
