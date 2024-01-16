@@ -1,5 +1,5 @@
 {
-  "name": "diff-ymd-package",
+  "name": "@farhan7reza7/diff-ymd-package",
   "version": "1.0.0",
   "description": "Utility class for calculating the difference between two dates in (aYears bMonths cDays)(aY bM cD) format.",
   "main": "src/diff-ymd.js",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/farhan7reza7/diff-ymd-package.git"
+    "url": "git+https://github.com/farhan7reza7/diff-ymd-package.git"
   },
   "bugs": {
     "url": "https://github.com/farhan7reza7/diff-ymd-package/blob/main/.github/ISSUE_TEMPLATE.md"
