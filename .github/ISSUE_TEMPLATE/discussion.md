@@ -5,6 +5,6 @@ title: "[Discussion] "
 labels: question
 ---
 
-# GENERAL DISCUSSION TEMPLATE:
+**GENERAL DISCUSSION TEMPLATE:**
 
-Feel free to start discussions on any related topics, share your experiences, or ask questions.
+Feel free to start discussions related to this project, share your experiences, or ask questions.
