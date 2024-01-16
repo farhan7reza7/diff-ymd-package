@@ -1,13 +1,19 @@
 {
   "name": "diff-ymd-package",
   "version": "1.0.0",
-  "description": "Utility class for calculating the difference between two dates in (aYears bMonths cDays) format.",
+  "description": "Utility class for calculating the difference between two dates in (aYears bMonths cDays)(aY bM cD) format.",
   "main": "src/diff-ymd.js",
   "scripts": {
     "test": "jest"
   },
   "keywords": [
     "date",
+    "dates",
+    "formatted difference",
+    "formatted dates difference",
+    "formatted",
+    "aY bM cD",
+    "aYears bMonths cDays",
     "utility",
     "difference",
     "npm",
