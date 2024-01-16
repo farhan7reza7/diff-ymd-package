@@ -1,6 +1,6 @@
-## Changelog 
+## Changelog
 
-All notable changes to  diff-ymd-package will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html),
+All notable changes to diff-ymd-package will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html),
 and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 
 ### [Unreleased] - 2024-01-15
@@ -20,27 +20,25 @@ and follows the guidelines from [Keep a Changelog](https://keepachangelog.com/).
 ### [v1.0.0] - 2024-01-16
 
 #### Fixed
-fixed some prerequisites for making package available on npm through "Github Packages" 
+
+fixed some prerequisites for making package available on npm through "Github Packages"
 
 ### [v1.0.1]
 
 #### Fixed
+
 fixed some issues and configured files for v1.0.1
 
 ### [v1.0.2]
 
 #### Fixed
-fixed some issues and configured files for v1.0.2
 
-### [v1.0.3]
-
-#### Fixed
-fixed some issues and configured files for v1.0.3
+fixed some issues and configured files for publishing diff-ymd-package v1.0.2 on npm registry
 
 ### [Next Release] - Planning release time
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.3...HEAD)
-- [v1.0.3](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.3)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.2...HEAD)
+- [v1.0.2](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.2)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)

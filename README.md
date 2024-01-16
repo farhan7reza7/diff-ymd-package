@@ -2,11 +2,22 @@
 
 [![pages-build-deployment](https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment)
 
+[![NPM Version](https://img.shields.io/npm/v/diff-ymd-package)](https://www.npmjs.com/package/diff-ymd-package)
+
 [![License](https://img.shields.io/github/license/farhan7reza7/diff-ymd-package)](https://opensource.org/licenses/MIT)
 
 diff-ymd-package provides api to difference dates in formatted ways(like (aYears bMonths cDays) or (aY bM cD), eg. age = 20Y 2M 23D or datesDifference = 2Years 11Months 20Days)
 
 ## Installation
+
+### Install from `npm registry`
+
+```bash
+npm install diff-ymd-package
+
+```
+
+### Install from `Github Packages` registry
 
 ```bash
 npm install @farhan7reza7/diff-ymd-package
@@ -16,7 +27,9 @@ npm install @farhan7reza7/diff-ymd-package
 ## Usage
 
 ```javascript
-const DatesYMD = require('@farhan7reza7/diff-ymd-package');
+//const DatesYMD = require('@farhan7reza7/diff-ymd-package'); or
+
+const DatesYMD = require('diff-ymd-package'); // can use any
 
 const date1 = '2022-01-01';
 const date2 = '2023-12-31';

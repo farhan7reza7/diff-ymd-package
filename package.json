@@ -1,6 +1,6 @@
 {
-  "name": "@farhan7reza7/diff-ymd-package",
-  "version": "1.0.3",
+  "name": "diff-ymd-package",
+  "version": "1.0.2",
   "description": "Utility class for calculating the difference between two dates in (aYears bMonths cDays)(aY bM cD) format.",
   "main": "src/diff-ymd.js",
   "scripts": {
