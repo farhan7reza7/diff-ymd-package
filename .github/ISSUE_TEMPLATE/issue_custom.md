@@ -1,5 +1,5 @@
 ---
-name: Discussion request
+name:  request
 about: Suggest required discussion(ask questions) for  the project
 title: "[Discussion] "
 labels: question
