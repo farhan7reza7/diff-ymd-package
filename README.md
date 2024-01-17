@@ -1,12 +1,10 @@
 # diff-ymd-package
 
-[![pages-build-deployment](https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment)
+> `diff-ymd-package` a javascript package provides APIs to difference dates in formatted ways(like (aYears bMonths cDays) or (aY bM cD) etc., eg. age = 20Y 2M 23D or datesDifference = 2Years 11Months 20Days)
 
-[![NPM Version](https://img.shields.io/npm/v/diff-ymd-package)](https://www.npmjs.com/package/diff-ymd-package)
-
-[![License](https://img.shields.io/github/license/farhan7reza7/diff-ymd-package)](https://opensource.org/licenses/MIT)
-
-diff-ymd-package provides api to difference dates in formatted ways(like (aYears bMonths cDays) or (aY bM cD), eg. age = 20Y 2M 23D or datesDifference = 2Years 11Months 20Days)
+[![NPM Version][npm-image]][npm-url]
+[![CI][ci-image]][ci-url]
+[![License][license-image]][licence-url]
 
 ## Installation
 
@@ -35,11 +33,26 @@ const date1 = '2022-01-01';
 const date2 = '2023-12-31';
 
 const calculator = new DatesYMD(date1, date2);
+
 const result = calculator.formattedYMD();
 const resultArray = calculator.diffArray();
 
 console.log(result); // Output: "1Y 11M 30D"
+// formatted output in aY bM cD format
+
 console.log(resultArray); // Output: [1, 11, 30, '1Y 11M 30D']
+/* you can access each of Y, M, D separately from output array and can format as per your choice like aY-bM-cD or aYears-bMonths-cDays etc.*/
+
+/*example: 
+let Y, M, D;
+
+Y = resultArray[0];
+M = resultArray[1];
+D = resultArray[2];
+
+const customFormat = Y + 'years ' + M + 'months ' + D + 'days';
+console.log(customFormat); // output: 1years 11months 30days
+*/
 ```
 
 ## API Documentation
@@ -51,7 +64,7 @@ Represents a utility class for calculating the difference between two dates.
 #### Create an instance of `DatesYMD`:
 
 ```javascript
-const calculator = new DatesYMD(firstDate, secondDate);
+const Formatter = new DatesYMD(firstDate, secondDate);
 ```
 
 - **`firstDate`**: The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or 'yyyy.mm.dd'.
@@ -70,7 +83,7 @@ const result = calculator.diffArray();
   An array containing the calculated years, months, days, and the formatted difference.
 
 **`formattedYMD()`**
-Returns the formatted difference between two dates in aYears bMonths cDays(aY bM cD) format.
+Returns the formatted difference between two dates in aY bM cD(aYears bMonths cDays) format.
 
 ```javascript
 const result = calculator.formattedYMD();
@@ -78,28 +91,36 @@ const result = calculator.formattedYMD();
 
 - **`Returns:`** A string in the format 'aY bM cD'.
 
-[For more information, check out diff-ymd-package documentation](https://farhan7reza7.github.io/diff-ymd-package/DatesYMD.html)
+[For more information, see `diff-ymd-package documentation`](https://farhan7reza7.github.io/diff-ymd-package/DatesYMD.html)
 
 ## Contributing
 
 If you find any issues or have suggestions for improvement, please open an issue or create a pull request on the GitHub repository.
 
-## License
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more informations.
 
-- This project is licensed under the MIT License - see the LICENSE file for details.
-  [License here](https://github.com/farhan7reza7/diff-ymd-package/blob/main/LICENSE)
+## Best Practices:
 
-## Additional Notes
-
-### Best Practices`:`
-
-#### The code adheres to recommended practices for readability and maintainability, including:
+### The code adheres to recommended practices for readability and maintainability, including:
 
 - Meaningful variable and function names for clarity.
 - Clear and concise comments to enhance understanding.
 - Proper indentation and formatting for visual organization.
 
-### Important Links`:`
+## License
 
-- For more details about what has changed in each version of this project, please see the CHANGELOG.  
-  [CHANGELOG here](https://github.com/farhan7reza7/diff-ymd-package/blob/main/CHANGELOG.md)
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+[See License](https://github.com/farhan7reza7/diff-ymd-package/blob/main/LICENSE)
+
+## History
+
+For more details about what has changed in each version of this project, see the CHANGELOG.  
+See [CHANGELOG.md](CHANGELOG.md).
+
+[npm-image]: https://img.shields.io/npm/v/diff-ymd-package
+[npm-url]: https://www.npmjs.com/package/diff-ymd-package
+[ci-image]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment/badge.svg
+[ci-url]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment
+[license-image]: https://img.shields.io/github/license/farhan7reza7/diff-ymd-package
+[licence-url]: https://opensource.org/licenses/MIT

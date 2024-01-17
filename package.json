@@ -1,23 +1,26 @@
 {
-  "name": "diff-ymd-package",
-  "version": "1.0.3",
-  "description": "Utility class for calculating the difference between two dates in (aYears bMonths cDays)(aY bM cD) format.",
+  "name": "@farhan7reza7/diff-ymd-package",
+  "version": "1.0.4",
+  "description": "Utility class for calculating the difference between two dates in (aY bM cD)(aYears bMonths cDays) or customized formats like aY-bM-cD or aYears-bMonths-cDays etc.",
   "main": "src/diff-ymd.js",
   "scripts": {
     "test": "jest"
   },
   "keywords": [
     "date",
+    "diff-ymd-package",
+    "ymd",
+    "diff-ymd",
+    "diff",
     "dates",
-    "formatted difference",
-    "formatted dates difference",
-    "formatted",
-    "aY bM cD",
-    "aYears bMonths cDays",
-    "utility",
-    "difference",
-    "npm",
-    "package"
+    "formatted-difference",
+    "formatted-dates-difference",
+    "age-finder",
+    "age",
+    "customized-format",
+    "aY-bM-cD",
+    "aYears-bMonths-cDays",
+    "dates-difference"
   ],
   "author": "Farhan Reza",
   "license": "MIT",
@@ -34,7 +37,7 @@
     "url": "git+https://github.com/farhan7reza7/diff-ymd-package.git"
   },
   "bugs": {
-    "url": "https://github.com/farhan7reza7/diff-ymd-package/blob/main/.github/ISSUE_TEMPLATE/ISSUE_TEMPLATE.md"
+    "url": "https://github.com/farhan7reza7/diff-ymd-package/issues/new/choose"
   },
   "homepage": "https://github.com/farhan7reza7/diff-ymd-package/blob/main/README.md"
 }
