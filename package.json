@@ -1,5 +1,5 @@
 {
-  "name": "@farhan7reza7/diff-ymd-package",
+  "name": "diff-ymd-package",
   "version": "1.0.5",
   "description": "Utility class for calculating the difference between two dates in formatted ways like (aY bM cD)(aYears bMonths cDays) or customized formats like aY-bM-cD or aYears-bMonths-cDays etc.",
   "main": "src/diff-ymd.js",
@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "keywords": [
-    "date",
+    
     "diff-ymd-package",
     "ymd",
     "diff-ymd",
@@ -17,6 +17,7 @@
     "formatted-dates-difference",
     "age-finder",
     "age",
+    "date",
     "customized-format",
     "aY-bM-cD",
     "aYears-bMonths-cDays",
