@@ -95,7 +95,7 @@ const result = Formatter.formattedYMD();
 
 - **`Returns:`** A string in the format 'aY bM cD'.
 
-For more information, [See `diff-ymd-package documentation`](https://farhan7reza7.github.io/diff-ymd-package/DatesYMD.html)
+For more informations, [See `diff-ymd-package documentation`](https://farhan7reza7.github.io/diff-ymd-package/DatesYMD.html)
 
 ## Contributing
 
