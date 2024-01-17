@@ -1,6 +1,6 @@
 # diff-ymd-package
 
-> `diff-ymd-package` a javascript package provides APIs to difference dates in formatted ways(like (aYears bMonths cDays) or (aY bM cD) etc., eg. age = 20Y 2M 23D or datesDifference = 2Years 11Months 20Days)
+> `diff-ymd-package` a `javascript package` provides APIs to difference dates in formatted ways(like (aYears bMonths cDays) or (aY bM cD) etc., eg. age = 20Y 2M 23D or datesDifference = 2Years 11Months 20Days) as well as customized formats like aY-bM-cD or aYears-bMonths-cDays etc.
 
 [![NPM Version][npm-image]][npm-url]
 [![CI][ci-image]][ci-url]
@@ -32,10 +32,10 @@ const DatesYMD = require('diff-ymd-package'); // can use any
 const date1 = '2022-01-01';
 const date2 = '2023-12-31';
 
-const calculator = new DatesYMD(date1, date2);
+const Formatter = new DatesYMD(date1, date2);
 
-const result = calculator.formattedYMD();
-const resultArray = calculator.diffArray();
+const result = Formatter.formattedYMD();
+const resultArray = Formatter.diffArray();
 
 console.log(result); // Output: "1Y 11M 30D"
 // formatted output in aY bM cD format
@@ -53,18 +53,20 @@ D = resultArray[2];
 const customFormat = Y + 'years ' + M + 'months ' + D + 'days';
 console.log(customFormat); // output: 1years 11months 30days
 */
+
 ```
 
 ## API Documentation
 
 ### `DatesYMD`
 
-Represents a utility class for calculating the difference between two dates.
+Represents a utility class for calculating the formatted and customized difference between two dates in all cases.
 
 #### Create an instance of `DatesYMD`:
 
 ```javascript
 const Formatter = new DatesYMD(firstDate, secondDate);
+
 ```
 
 - **`firstDate`**: The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or 'yyyy.mm.dd'.
@@ -76,7 +78,8 @@ const Formatter = new DatesYMD(firstDate, secondDate);
 Calculates the difference between two dates and returns an array containing Y(years), M(months), D(days), and a formatted 'aY bM cD' difference string.
 
 ```javascript
-const result = calculator.diffArray();
+const result = Formatter.diffArray();
+
 ```
 
 - **`Returns:`**
@@ -86,7 +89,8 @@ const result = calculator.diffArray();
 Returns the formatted difference between two dates in aY bM cD(aYears bMonths cDays) format.
 
 ```javascript
-const result = calculator.formattedYMD();
+const result = Formatter.formattedYMD();
+
 ```
 
 - **`Returns:`** A string in the format 'aY bM cD'.
