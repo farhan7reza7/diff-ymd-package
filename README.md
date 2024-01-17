@@ -55,6 +55,10 @@ const customFormat = Y + 'years ' + M + 'months ' + D + 'days';
 console.log(customFormat); // output: 1years 11months 30days
 */
 
+// you can use this method for creating format of your choice
+const customizedFormat = Formatter.customizeFormat('Ys', 'Ms', 'Ds', '-');
+
+console.log(customizedFormat); // Output: "1Ys-2Ms-2Ds"
 ```
 
 ## API Documentation
@@ -67,7 +71,6 @@ Represents a utility class for calculating the formatted and customized differen
 
 ```javascript
 const Formatter = new DatesYMD(firstDate, secondDate);
-
 ```
 
 - **`firstDate`**: The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or 'yyyy.mm.dd'.
@@ -80,7 +83,6 @@ Calculates the difference between two dates and returns an array containing Y(ye
 
 ```javascript
 const result = Formatter.diffArray();
-
 ```
 
 - **`Returns:`**
@@ -91,10 +93,23 @@ Returns the formatted difference between two dates in aY bM cD(aYears bMonths cD
 
 ```javascript
 const result = Formatter.formattedYMD();
-
 ```
 
 - **`Returns:`** A string in the format 'aY bM cD'.
+
+**`customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator)`**
+Customizes the difference using specified units and separators
+
+```javascript
+const result = Formatter.customizeFormat(
+  yearUnit,
+  monthUnit,
+  dayUnit,
+  partSeparator,
+);
+```
+
+- **`Returns:`** A customized formatted difference string of form (a + yearUnit + partSeparator + b + monthUnit + partSeparator + c + dayUnit), eg. aYs-bMs-cDs etc.
 
 For more informations, [See `diff-ymd-package documentation`](https://farhan7reza7.github.io/diff-ymd-package/DatesYMD.html)
 

@@ -144,6 +144,33 @@ class DatesYMD {
   formattedYMD() {
     return this.diffArray()[3];
   }
+
+  /**
+   * Customizes the difference using specified units and separators like (a + yearUnit + partSeparator + b + monthUnit + partSeparator  + c + dayUnit), eg. aYs-bMs-cDs etc.
+   *
+   * @method
+   * @param {string} yearUnit - The unit for years.
+   * @param {string} monthUnit - The unit for months.
+   * @param {string} dayUnit - The unit for days.
+   * @param {string} partSeparator - The separator between year, month, and day parts.
+   * @returns {string} The customized formatted difference.
+   */
+  customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator) {
+    let Y, M, D;
+    Y = this.diffArray()[0];
+    M = this.diffArray()[1];
+    D = this.diffArray()[2];
+    const customized =
+      Y +
+      yearUnit +
+      partSeparator +
+      M +
+      monthUnit +
+      partSeparator +
+      D +
+      dayUnit;
+    return customized;
+  }
 }
 
 // Export the DatesYMD class for use in other modules

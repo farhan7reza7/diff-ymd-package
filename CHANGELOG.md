@@ -53,10 +53,27 @@ fixed some issues and configured files for publishing diff-ymd-package v1.0.4 on
 
 fixed some issues and configured files for publishing diff-ymd-package v1.0.5 on npm registry
 
+### [v1.1.0]
+
+#### Added
+
+- Improved handling of customized formatting.
+- Includes method for creating customized differrence formats.
+- Included Unit test using Jest for customizing method.
+- Included through comments in tests script
+
+#### Changed
+
+- Included through comments in tests script
+
+#### Fixed
+
+fixed some issues and configured files for publishing diff-ymd-package v1.1.0 on npm registry
+
 ### [Next Release] - Planning release time
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.0.5...HEAD)
-- [v1.0.5](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.0.5)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.1.0...HEAD)
+- [v1.1.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.1.0)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)

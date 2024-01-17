@@ -12,8 +12,8 @@
     "dictionaries": ["jsdoc", "closure"]
   },
   "templates": {
-    "cleverLinks": false,
-    "monospaceLinks": false
+    "cleverLinks": true,
+    "monospaceLinks": true
   },
   "plugins": [],
   "recurseDepth": 10,
