@@ -1,6 +1,6 @@
 # diff-ymd-package
 
-> `diff-ymd-package` a `javascript package` provides APIs to difference dates in formatted ways(like (aYears bMonths cDays) or (aY bM cD) etc., eg. age = 20Y 2M 23D or datesDifference = 2Years 11Months 20Days) as well as customized formats like aY-bM-cD or aYears-bMonths-cDays etc.
+> `diff-ymd-package` a `javascript package` provides APIs to difference dates in formatted ways(like (aYears bMonths cDays) or (aY bM cD) etc., eg. age = 20Y 2M 23D or datesDifference = 2Years 11Months 20Days) or customized formats like aY-bM-cD or aYears-bMonths-cDays etc.
 
 [![NPM Version][npm-image]][npm-url]
 [![CI][ci-image]][ci-url]
