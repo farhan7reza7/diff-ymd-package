@@ -59,7 +59,7 @@ console.log(customFormat); // output: 1years 11months 30days
 // you can use this method for creating format of your choice
 const customizedFormat = Formatter.customizeFormat('Ys', 'Ms', 'Ds', '-');
 
-console.log(customizedFormat); // Output: "1Ys-2Ms-2Ds"
+console.log(customizedFormat); // Output: "1Ys-11Ms-30Ds"
 ```
 
 ## API Documentation
