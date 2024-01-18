@@ -82,10 +82,16 @@ fixed some issues and configured files for v1.1.1
 
 fixed some issues and configured files for v1.1.2
 
+### [v1.1.3]
+
+#### Fixed
+
+fixed some issues and configured files for v1.1.3
+
 ### [Next Release] - Planning release time
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.1.2...HEAD)
-- [v1.1.2](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.1.2)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.1.3...HEAD)
+- [v1.1.3](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.1.3)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
