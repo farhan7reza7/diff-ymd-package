@@ -24,23 +24,42 @@ npm install @farhan7reza7/diff-ymd-package
 
 ```
 
-## Usage
+## Usages
 
+**Initialize**
 ```javascript
 //const DatesYMD = require('@farhan7reza7/diff-ymd-package'); or
 
 const DatesYMD = require('diff-ymd-package'); // can use any
 
+```
+**Create an instance**
+```javascript
 const date1 = '2022-01-01';
 const date2 = '2023-12-31';
 
 const Formatter = new DatesYMD(date1, date2);
 
-const result = Formatter.formattedYMD();
-const resultArray = Formatter.diffArray();
+```
+**Use methods to format difference**
+```javascript
+// format output in aY bM cD format
+const result = Formatter.formattedYMD(); // Output: "1Y 11M 30D"
 
+// create format of your choice
+const customizedFormat = Formatter.customizeFormat('Y', 'Ms', 'Ds', '-'); // Output: "1Y-11Ms-30Ds"
+
+// return an array having years, months, days, and the formatted difference
+const resultArray = Formatter.diffArray(); // Output: [1, 11, 30, '1Y 11M 30D']
+
+```
+**Formatted Outputs**
+```javascript
 console.log(result); // Output: "1Y 11M 30D"
 // formatted output in aY bM cD format
+
+console.log(customizedFormat); // Output: "1Y-11Ms-30Ds"
+// you can use this method for creating format of your choice
 
 console.log(resultArray); // Output: [1, 11, 30, '1Y 11M 30D']
 /* you can access each of Y, M, D separately from output array and can format as per your choice like aY-bM-cD or aYears-bMonths-cDays etc.*/
@@ -56,10 +75,6 @@ const customFormat = Y + 'year ' + M + 'months ' + D + 'days';
 console.log(customFormat); // output: 1year 11months 30days
 */
 
-// you can use this method for creating format of your choice
-const customizedFormat = Formatter.customizeFormat('Y', 'Ms', 'Ds', '-');
-
-console.log(customizedFormat); // Output: "1Y-11Ms-30Ds"
 ```
 
 ## API Documentation
