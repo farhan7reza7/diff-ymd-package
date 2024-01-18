@@ -52,14 +52,14 @@ Y = resultArray[0];
 M = resultArray[1];
 D = resultArray[2];
 
-const customFormat = Y + 'years ' + M + 'months ' + D + 'days';
-console.log(customFormat); // output: 1years 11months 30days
+const customFormat = Y + 'year ' + M + 'months ' + D + 'days';
+console.log(customFormat); // output: 1year 11months 30days
 */
 
 // you can use this method for creating format of your choice
-const customizedFormat = Formatter.customizeFormat('Ys', 'Ms', 'Ds', '-');
+const customizedFormat = Formatter.customizeFormat('Y', 'Ms', 'Ds', '-');
 
-console.log(customizedFormat); // Output: "1Ys-11Ms-30Ds"
+console.log(customizedFormat); // Output: "1Y-11Ms-30Ds"
 ```
 
 ## API Documentation
