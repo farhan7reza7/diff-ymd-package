@@ -70,22 +70,22 @@ const resultArray = Formatter.diffArray(); // Output: [1, 11, 30, '1Y 11M 30D']
 const monthsDifference = Formatter.diffInMonths(); // Output: 23
 
 // Calculate the difference in weeks
-const weeksDifference = Formatter.diffInWeeks(); // Output: 164
+const weeksDifference = Formatter.diffInWeeks(); // Output: 104
 
 // Calculate the difference in days
-const daysDifference = Formatter.diffInDays(); // Output: 1143
+const daysDifference = Formatter.diffInDays(); // Output: 729
 
 // Calculate the difference in years
 const yearsDifference = Formatter.diffInYears(); // Output: 1
 
 // Calculate the difference in hours
-const hoursDifference = Formatter.diffInHours(); // Output: 27432
+const hoursDifference = Formatter.diffInHours(); // Output: 17496
 
 // Calculate the difference in minutes
-const minutesDifference = Formatter.diffInMinutes(); // Output: 1645920
+const minutesDifference = Formatter.diffInMinutes(); // Output: 1049760
 
 // Calculate the difference in seconds
-const secondsDifference = Formatter.diffInSeconds(); // Output: 98755200
+const secondsDifference = Formatter.diffInSeconds(); // Output: 62985600
 ```
 
 **Formatted Outputs**
@@ -114,22 +114,22 @@ console.log(customFormat); // output: 1year 11months 30days
 console.log(monthsDifference); // Output: 23
 // Calculate the difference in months
 
-console.log(weeksDifference); // Output: 164
+console.log(weeksDifference); // Output: 104
 // Calculate the difference in weeks
 
-console.log(daysDifference); // Output: 1143
+console.log(daysDifference); // Output: 729
 // Calculate the difference in days
 
 console.log(yearsDifference); // Output: 1
 // Calculate the difference in years
 
-console.log(hoursDifference); // Output: 27432
+console.log(hoursDifference); // Output: 17496
 // Calculate the difference in hours
 
-console.log(minutesDifference); // Output: 1645920
+console.log(minutesDifference); // Output: 1049760
 // Calculate the difference in minutes
 
-console.log(secondsDifference); // Output: 98755200
+console.log(secondsDifference); // Output: 62985600
 // Calculate the difference in seconds
 ```
 
