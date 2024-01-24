@@ -123,10 +123,16 @@ fixed some issues and configured files for v1.1.3
 - Increased test coverage: Expanded Jest test suite to cover all scenarios, ensuring robust functionality.
 - Continuous Integration: Integrated automated testing with GitHub Actions for ongoing code quality assurance.
 
+### [v2.0.1]
+
+#### Fixed
+
+fixed some issues and configured files for publishing diff-ymd-package v2.0.1 on npm registry
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.0.0...HEAD)
-- [v2.0.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.0.0)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.0.1...HEAD)
+- [v2.0.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.0.1)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
