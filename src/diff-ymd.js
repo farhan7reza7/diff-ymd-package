@@ -8,9 +8,9 @@ class DatesYMD {
    * Creates an instance of DatesYMD.
    *
    * @constructor
-   * @param {string but Number for epoch, and Object for dateObject} firstDate - The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
+   * @param {string} firstDate (type- String but Number for epoch, and Object for dateObject) - The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
   or Timestamp(epoch).
-   * @param {string but Number for epoch, and Object for dateObject} secondDate - The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
+   * @param {string} secondDate (type- String but Number for epoch, and Object for dateObject) - The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
   or Timestamp(epoch).
    */
   constructor(firstDate, secondDate) {
@@ -358,9 +358,9 @@ class DatesYMD {
 /**
  * Creates an instance of DatesYMD.
  *
- * @param {string but Number for epoch, and Object for dateObject} firstDate - The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
+ * @param {string} firstDate (type- String but Number for epoch, and Object for dateObject) - The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
   or Timestamp(epoch).
- * @param {string but Number for epoch, and Object for dateObject} secondDate - The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
+ * @param {string} secondDate (type- String but Number for epoch, and Object for dateObject) - The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
   or Timestamp(epoch).
  *
  * @returns {DatesYMD} An object containing methods for date difference calculations.
