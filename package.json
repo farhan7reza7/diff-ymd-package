@@ -1,7 +1,7 @@
 {
   "name": "@farhan7reza7/diff-ymd-package",
   "version": "2.0.0",
-  "description": "A javascript library for calculating the difference between two dates in formatted ways like (aY bM cD)(aYears bMonths cDays) or customized desired formats like aY-bM-cD or aYears-bMonths-cDays etc.",
+  "description": "A javascript library for calculating the difference between two dates in formatted ways like (aY bM cD)(aYears bMonths cDays) or customized desired formats like aY-bM-cD or aYears-bMonths-cDays or kDays or mWeeks or nMonths etc.",
   "main": "src/diff-ymd.js",
   "scripts": {
     "test": "jest"
@@ -12,11 +12,14 @@
     "diff-ymd",
     "diff-library",
     "dates",
+    "time-intervals",
     "formatted-difference",
     "formatted-dates-difference",
     "age-finder",
     "age",
+    "age-calculator",
     "date-utility",
+    "desired-formats",
     "customized-format",
     "aY-bM-cD",
     "aYears-bMonths-cDays",

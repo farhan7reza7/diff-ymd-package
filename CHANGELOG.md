@@ -88,10 +88,45 @@ fixed some issues and configured files for v1.1.2
 
 fixed some issues and configured files for v1.1.3
 
-### [Next Release] - Planning release time
+### [v2.0.0] - [2024-01-24]
+
+#### Added
+
+- **Simplification:** Updated the `DatesYMD` class to accept dateString, epoch, and dateObject as well along with string as parameters.
+- Added the method `diffInMonths` to calculate the difference in months between two dates.
+- Added the method `diffInWeeks` to calculate the difference in weeks between two dates.
+- Added the method `diffInDays` to calculate the difference in days between two dates.
+- Added the method `diffInYears` to calculate the difference in years between two dates.
+- Added the method `diffInHours` to calculate the difference in hours between two dates.
+- Added the method `diffInMinutes` to calculate the difference in minutes between two dates.
+- Added the method `diffInSeconds` to calculate the difference in seconds between two dates.
+- Updated Unit tests: Included comprehensive Jest tests for the newly added methods.
+- Updated the README.md documentation to include the new methods.
+
+#### Changed
+
+- Improved algorithm efficiency: Enhanced performance for existing methods to provide faster calculations.
+- Modified internal structure: Refactored internal code for better readability and maintainability.
+
+#### Fixed
+
+- Fixed some issues related to the new changes.
+- Configured files for publishing diff-ymd-package v2.0.0 on npm registry.
+
+#### Documentation
+
+- README.md updated: Added examples and use cases and api documentation for the new methods.
+- Enhanced code comments: Provided thorough inline documentation for better codes understanding.
+
+#### Testing
+
+- Increased test coverage: Expanded Jest test suite to cover all scenarios, ensuring robust functionality.
+- Continuous Integration: Integrated automated testing with GitHub Actions for ongoing code quality assurance.
+
+### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.1.3...HEAD)
-- [v1.1.3](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.1.3)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.0.0...HEAD)
+- [v2.0.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.0.0)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
