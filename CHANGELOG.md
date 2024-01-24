@@ -74,12 +74,24 @@ fixed some issues and configured files for publishing diff-ymd-package v1.1.0 on
 
 #### Fixed
 
-fixed some issues and configured files for v1.0.1
+fixed some issues and configured files for v1.1.1
+
+### [v1.1.2]
+
+#### Fixed
+
+fixed some issues and configured files for v1.1.2
+
+### [v1.1.3]
+
+#### Fixed
+
+fixed some issues and configured files for v1.1.3
 
 ### [Next Release] - Planning release time
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.1.1...HEAD)
-- [v1.1.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.1.1)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v1.1.3...HEAD)
+- [v1.1.3](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v1.1.3)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
