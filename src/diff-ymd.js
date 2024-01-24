@@ -8,8 +8,10 @@ class DatesYMD {
    * Creates an instance of DatesYMD.
    *
    * @constructor
-   * @param {string} firstDate - The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd .
-   * @param {string} secondDate - The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd'or yyyy.mm.dd .
+   * @param {string} firstDate (type- String but Number for epoch, and Object for dateObject) - The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
+  or Timestamp(epoch).
+   * @param {string} secondDate (type- String but Number for epoch, and Object for dateObject) - The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
+  or Timestamp(epoch).
    */
   constructor(firstDate, secondDate) {
     this.firstDate = firstDate;
@@ -338,7 +340,7 @@ class DatesYMD {
 }
 
 /**
- * Represents a utility for calculating the difference between two dates in formatted ways.
+ * Represents a utility for calculating the difference between two dates in formatted or desired customized ways.
  *
  * @typedef {Object} DatesYMD
  * @property {Function} diffArray - Calculates the difference between two dates and returns an array containing years, months, days, and a formatted difference string.
@@ -356,9 +358,12 @@ class DatesYMD {
 /**
  * Creates an instance of DatesYMD.
  *
- * @param {string} firstDate - The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd.
- * @param {string} secondDate - The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd.
- * @returns {DatesYMD} An object containing functions for date difference calculations.
+ * @param {string} firstDate (type- String but Number for epoch, and Object for dateObject) - The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
+  or Timestamp(epoch).
+ * @param {string} secondDate (type- String but Number for epoch, and Object for dateObject) - The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject
+  or Timestamp(epoch).
+ *
+ * @returns {DatesYMD} An object containing methods for date difference calculations.
  */
 function diffDates(firstDate, secondDate) {
   /**
