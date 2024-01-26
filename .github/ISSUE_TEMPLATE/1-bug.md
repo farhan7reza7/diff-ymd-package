@@ -23,10 +23,12 @@ labels: bug
 
 **Versions (if applicable):**
 
+<!--
 - diff-ymd-package version: [e.g., 1.0.0]
 - Node.js version: [e.g., 14.17.5]
 - Operating System: [e.g., Windows 10]
 - Browser [e.g. chrome]
+-->
 
 **Additional Information (if applicable):**
 
