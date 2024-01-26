@@ -39,7 +39,7 @@ class DatesYMD {
     // Swap dates if the first date is smaller than the second date
     this.swapDates = function (firstD, secondD) {
       if (firstD.getTime() < secondD.getTime()) {
-        var negativeHandle = firstD;
+        let negativeHandle = firstD;
         firstD = secondD;
         secondD = negativeHandle;
       }
@@ -55,7 +55,7 @@ class DatesYMD {
       (firstD = dates[0]), (secondD = dates[1]);
 
       // Swap dates if the first date is smaller than the second date
-      var swapped = this.swapDates(firstD, secondD);
+      let swapped = this.swapDates(firstD, secondD);
       if (swapped) {
         (firstD = swapped[0]), (secondD = swapped[1]);
       }
@@ -71,8 +71,8 @@ class DatesYMD {
    * @returns {Array} An array containing the calculated years, months, days, and the formatted difference.
    */
   diffArray() {
-    var datesDiff, year, month, day, monthAdjuster, firstD, secondD;
-    var dates, yearS, yearF, monthS, monthF, dateS, dateF;
+    var year, month, day, monthAdjuster;
+    let firstD, secondD, dates, yearS, yearF, monthS, monthF, dateS, dateF, datesDiff;
 
     // initializing dates difference
     dates = this.initDiff();
@@ -210,7 +210,7 @@ class DatesYMD {
    * @returns {number} The difference in months.
    */
   diffInMonths() {
-    var ymdArray, year, month;
+    let ymdArray, year, month;
 
     // initializing dates difference
     ymdArray = this.diffArray();
@@ -400,7 +400,7 @@ function diffDates(firstDate, secondDate) {
    */
   function swapDates(firstD, secondD) {
     if (firstD.getTime() < secondD.getTime()) {
-      var negativeHandle = firstD;
+      let negativeHandle = firstD;
       firstD = secondD;
       secondD = negativeHandle;
     }
@@ -414,14 +414,15 @@ function diffDates(firstDate, secondDate) {
    * @returns {Array} An array containing the first and second date objects.
    */
   function initDiff() {
-    var dates, firstD, secondD;
+    let dates, swapped;
+    var firstD, secondD;
 
     // Handle empty date inputs by defaulting to the current date
     dates = handleEmpty();
     [firstD, secondD] = dates;
 
     // Swap dates if the first date is smaller than the second date
-    var swapped = swapDates(firstD, secondD);
+    swapped = swapDates(firstD, secondD);
     if (swapped) {
       [firstD, secondD] = swapped;
     }
@@ -435,10 +436,10 @@ function diffDates(firstDate, secondDate) {
      *
      * @returns {Array} An array containing the calculated years, months, days, and the formatted difference.
      */
-    diffArray: function () {
-      var datesDiff, year, month, day, monthAdjuster, firstD, secondD;
-      var dates, yearS, yearF, monthS, monthF, dateS, dateF;
-
+    diffArray: function () {  
+      var year, month, day, monthAdjuster;
+      let firstD, secondD, dates, yearS, yearF, monthS, monthF, dateS, dateF, datesDiff;
+      
       // initializing dates difference
       dates = initDiff();
       (firstD = dates[0]), (secondD = dates[1]);
@@ -572,7 +573,7 @@ function diffDates(firstDate, secondDate) {
      * @returns {number} The difference in months.
      */
     diffInMonths: function () {
-      var ymdArray, year, month;
+      let ymdArray, year, month;
 
       // initializing dates difference
       ymdArray = this.diffArray();
