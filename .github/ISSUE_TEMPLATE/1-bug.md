@@ -7,21 +7,21 @@ labels: bug
 
  **Description**
 
-[Provide a brief description of the bug]
+<!--[Provide a brief description of the bug]-->
 
 **Steps to Reproduce**
 
-[Outline the steps to reproduce the bug]
+<!--[Outline the steps to reproduce the bug]-->
 
 **Expected Behavior**
 
-[Describe what you expected to happen]
+<!--[Describe what you expected to happen]-->
 
 **Actual Behavior**
 
-[Describe what actually happened]
+<!--[Describe what actually happened]-->
 
-**Versions**
+**Versions (if applicable)**
 
 - diff-ymd-package version: [e.g., 1.0.0]
 - Node.js version: [e.g., 14.17.5]
@@ -30,4 +30,4 @@ labels: bug
 
 **Additional Information (if applicable)**
 
-[Include any additional information, logs, or screenshots]
+<!--[Include any additional information, logs, or screenshots]-->
