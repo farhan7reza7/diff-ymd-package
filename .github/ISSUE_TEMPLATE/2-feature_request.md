@@ -13,10 +13,10 @@ labels: enhancement
 
 <!--[A clear and concise description of the feature.]-->
 
-**Reason for the Feature**
+**Reason for the Feature:**
 
 <!--[Explain why this feature would be beneficial.]-->
 
-**Additional Information (if applicable)**
+**Additional Information (if applicable):**
 
 <!--[Any additional context or information that may be relevant.]-->
