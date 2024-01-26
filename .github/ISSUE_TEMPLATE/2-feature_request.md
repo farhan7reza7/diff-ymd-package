@@ -7,16 +7,16 @@ labels: enhancement
 
 #### Feature_Request:
 
-If you have ideas for new features or improvements, please share them here. We value your input!
+<!--If you have ideas for new features or improvements, please share them here. We value your input!-->
 
-**Feature Description**
+**Feature Description:**
 
-[A clear and concise description of the feature.]
+<!--[A clear and concise description of the feature.]-->
 
 **Reason for the Feature**
 
-[Explain why this feature would be beneficial.]
+<!--[Explain why this feature would be beneficial.]-->
 
-**Additional Information**
+**Additional Information (if applicable)**
 
-[Any additional context or information that may be relevant.]
+<!--[Any additional context or information that may be relevant.]-->
