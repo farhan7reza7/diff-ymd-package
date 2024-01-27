@@ -7,4 +7,4 @@ labels: bug
 
 **Issue custom template:**
 
-[Describe your issue here] 
+<!--[Describe your issue here]-->
