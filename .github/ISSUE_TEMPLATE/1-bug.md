@@ -5,29 +5,31 @@ title: "[Bug]"
 labels: bug
 ---
 
- **Description**
+ **Description:**
 
-[Provide a brief description of the bug]
+<!--[Provide a brief description of the bug]-->
 
-**Steps to Reproduce**
+**Steps to Reproduce:**
 
-[Outline the steps to reproduce the bug]
+<!--[Outline the steps to reproduce the bug]-->
 
-**Expected Behavior**
+**Expected Behavior:**
 
-[Describe what you expected to happen]
+<!--[Describe what you expected to happen]-->
 
-**Actual Behavior**
+**Actual Behavior:**
 
-[Describe what actually happened]
+<!--[Describe what actually happened]-->
 
-**Versions**
+**Versions (if applicable):**
 
+<!--
 - diff-ymd-package version: [e.g., 1.0.0]
 - Node.js version: [e.g., 14.17.5]
 - Operating System: [e.g., Windows 10]
 - Browser [e.g. chrome]
+-->
 
-**Additional Information (if applicable)**
+**Additional Information (if applicable):**
 
-[Include any additional information, logs, or screenshots]
+<!--[Include any additional information, logs, or screenshots]-->
