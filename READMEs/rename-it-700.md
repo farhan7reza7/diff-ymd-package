@@ -1,1 +1,0 @@
-READMEs/rename-it-700.md
