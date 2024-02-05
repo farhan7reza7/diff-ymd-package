@@ -1,1 +1,0 @@
-READMEs/rename-it-600.md
