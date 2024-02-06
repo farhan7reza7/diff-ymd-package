@@ -30,7 +30,7 @@ npm install @farhan7reza7/diff-ymd-package
 **Initialize**
 
 ```javascript
-//const DatesYMD = require('@farhan7reza7/diff-ymd-package'); or
+//const DatesYMD = require('@farhan7reza7/diff-ymd-package'); //or
 
 const DatesYMD = require('diff-ymd-package'); // can use any
 ```
