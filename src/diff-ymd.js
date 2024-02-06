@@ -19,7 +19,7 @@ class DatesYMD {
 
     // Handle empty date inputs by defaulting to the current date
     this.handleEmpty = function () {
-      var firstD, secondD;
+      let firstD, secondD;
       if (this.firstDate === '' && this.secondDate === '') {
         firstD = new Date();
         secondD = new Date();
@@ -48,14 +48,14 @@ class DatesYMD {
 
     // initializing dates difference
     this.initDiff = function () {
-      var dates, firstD, secondD;
-
+      let firstD, secondD;
+      const dates, swapped;
       // Handle empty date inputs by defaulting to the current date
       dates = this.handleEmpty();
       (firstD = dates[0]), (secondD = dates[1]);
 
       // Swap dates if the first date is smaller than the second date
-      let swapped = this.swapDates(firstD, secondD);
+      swapped = this.swapDates(firstD, secondD);
       if (swapped) {
         (firstD = swapped[0]), (secondD = swapped[1]);
       }
@@ -71,8 +71,8 @@ class DatesYMD {
    * @returns {Array} An array containing the calculated years, months, days, and the formatted difference.
    */
   diffArray() {
-    var year, month, day, monthAdjuster;
-    let firstD, secondD, dates, yearS, yearF, monthS, monthF, dateS, dateF, datesDiff;
+    let year, month, day, monthAdjuster;
+    const firstD, secondD, dates, yearS, yearF, monthS, monthF, dateS, dateF, datesDiff;
 
     // initializing dates difference
     dates = this.initDiff();
@@ -187,7 +187,7 @@ class DatesYMD {
    * @returns {string} The customized formatted difference.
    */
   customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator) {
-    let Y, M, D;
+    const Y, M, D;
     Y = this.diffArray()[0];
     M = this.diffArray()[1];
     D = this.diffArray()[2];
@@ -210,7 +210,7 @@ class DatesYMD {
    * @returns {number} The difference in months.
    */
   diffInMonths() {
-    let ymdArray, year, month;
+    const ymdArray, year, month;
 
     // initializing dates difference
     ymdArray = this.diffArray();
@@ -231,14 +231,14 @@ class DatesYMD {
    * @returns {number} The difference in weeks.
    */
   diffInWeeks() {
-    let dates, weeks, firstD, secondD;
+    const dates, firstD, secondD;
 
     // initializing dates difference
     dates = this.initDiff();
     (firstD = dates[0]), (secondD = dates[1]);
 
     // calculate weeks
-    weeks = Math.floor(
+    const weeks = Math.floor(
       (firstD.getTime() - secondD.getTime()) / (7 * 24 * 60 * 60 * 1000),
     );
 
@@ -252,14 +252,14 @@ class DatesYMD {
    * @returns {number} The difference in days.
    */
   diffInDays() {
-    let dates, days, firstD, secondD;
+    const dates, firstD, secondD;
 
     // initializing dates difference
     dates = this.initDiff();
     (firstD = dates[0]), (secondD = dates[1]);
 
     // calculate days
-    days = Math.floor(
+    const days = Math.floor(
       (firstD.getTime() - secondD.getTime()) / (24 * 60 * 60 * 1000),
     );
 
@@ -273,13 +273,13 @@ class DatesYMD {
    * @returns {number} The difference in years.
    */
   diffInYears() {
-    let ymdArray, years;
+    const ymdArray;
 
     // get dates difference array
     ymdArray = this.diffArray();
 
     // Extract year component of the difference
-    years = ymdArray[0];
+    const years = ymdArray[0];
 
     return years;
   }
@@ -291,7 +291,7 @@ class DatesYMD {
    * @returns {number} The difference in hours.
    */
   diffInHours() {
-    let days, hours;
+    const days, hours;
 
     // get dates difference days
     days = this.diffInDays();
@@ -309,7 +309,7 @@ class DatesYMD {
    * @returns {number} The difference in minutes.
    */
   diffInMinutes() {
-    let minutes, hours;
+    const minutes, hours;
 
     // get dates difference hours
     hours = this.diffInHours();
@@ -327,7 +327,7 @@ class DatesYMD {
    * @returns {number} The difference in seconds.
    */
   diffInSeconds() {
-    let seconds, minutes;
+    const seconds, minutes;
 
     // get dates difference minutes
     minutes = this.diffInMinutes();
@@ -373,7 +373,7 @@ function diffDates(firstDate, secondDate) {
    * @returns {Array} An array containing the first and second date objects.
    */
   function handleEmpty() {
-    var firstD, secondD;
+    let firstD, secondD;
     if (firstDate === '' && secondDate === '') {
       firstD = new Date();
       secondD = new Date();
@@ -414,8 +414,8 @@ function diffDates(firstDate, secondDate) {
    * @returns {Array} An array containing the first and second date objects.
    */
   function initDiff() {
-    let dates, swapped;
-    var firstD, secondD;
+    let firstD, secondD;
+    const dates, swapped;
 
     // Handle empty date inputs by defaulting to the current date
     dates = handleEmpty();
@@ -437,8 +437,8 @@ function diffDates(firstDate, secondDate) {
      * @returns {Array} An array containing the calculated years, months, days, and the formatted difference.
      */
     diffArray: function () {  
-      var year, month, day, monthAdjuster;
-      let firstD, secondD, dates, yearS, yearF, monthS, monthF, dateS, dateF, datesDiff;
+      let year, month, day, monthAdjuster;
+      const firstD, secondD, dates, yearS, yearF, monthS, monthF, dateS, dateF, datesDiff;
       
       // initializing dates difference
       dates = initDiff();
@@ -551,7 +551,7 @@ function diffDates(firstDate, secondDate) {
      * @returns {string} The customized formatted difference.
      */
     customizeFormat: function (yearUnit, monthUnit, dayUnit, partSeparator) {
-      let Y, M, D;
+      const Y, M, D;
       Y = this.diffArray()[0];
       M = this.diffArray()[1];
       D = this.diffArray()[2];
@@ -573,7 +573,7 @@ function diffDates(firstDate, secondDate) {
      * @returns {number} The difference in months.
      */
     diffInMonths: function () {
-      let ymdArray, year, month;
+      const ymdArray, year, month;
 
       // initializing dates difference
       ymdArray = this.diffArray();
@@ -593,7 +593,7 @@ function diffDates(firstDate, secondDate) {
      * @returns {number} The difference in weeks.
      */
     diffInWeeks: function () {
-      let dates, weeks, firstD, secondD;
+      const dates, weeks, firstD, secondD;
 
       // initializing dates difference
       dates = initDiff();
@@ -613,7 +613,7 @@ function diffDates(firstDate, secondDate) {
      * @returns {number} The difference in days.
      */
     diffInDays: function () {
-      let dates, days, firstD, secondD;
+      const dates, days, firstD, secondD;
 
       // initializing dates difference
       dates = initDiff();
@@ -633,7 +633,7 @@ function diffDates(firstDate, secondDate) {
      * @returns {number} The difference in years.
      */
     diffInYears: function () {
-      let ymdArray, years;
+      const ymdArray, years;
 
       // get dates difference array
       ymdArray = this.diffArray();
@@ -650,7 +650,7 @@ function diffDates(firstDate, secondDate) {
      * @returns {number} The difference in hours.
      */
     diffInHours: function () {
-      let days, hours;
+      const days, hours;
 
       // get dates difference days
       days = this.diffInDays();
@@ -667,7 +667,7 @@ function diffDates(firstDate, secondDate) {
      * @returns {number} The difference in minutes.
      */
     diffInMinutes: function () {
-      let minutes, hours;
+      const minutes, hours;
 
       // get dates difference hours
       hours = this.diffInHours();
@@ -684,7 +684,7 @@ function diffDates(firstDate, secondDate) {
      * @returns {number} The difference in seconds.
      */
     diffInSeconds: function () {
-      let seconds, minutes;
+      const seconds, minutes;
 
       // get dates difference minutes
       minutes = this.diffInMinutes();
