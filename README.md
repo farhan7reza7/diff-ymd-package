@@ -285,7 +285,7 @@ const secondsDifference = Formatter.diffInSeconds();
 
 **Returns:** The difference in seconds.<br>
 
-### `For more informations:`
+### `For more information:`
 [See `diff-ymd-package Documentation`](https://farhan7reza7.github.io/diff-ymd-package/global.html)
 
 ## Contributing
