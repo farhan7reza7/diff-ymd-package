@@ -148,7 +148,7 @@ const Formatter = new DatesYMD(firstDate, secondDate);
 
 #### `OR` for version 2.x.x and above
 
-**Can use simplified function `diffDates` on module-object**
+##### Can use simplified function `diffDates` on module-object
 
 ```javascript
 //const DatesYMD = require('@farhan7reza7/diff-ymd-package'); or
@@ -168,9 +168,9 @@ const Formatter = DatesYMD.diffDates(firstDate, secondDate); // can use any
 - **`Returns:`**
   An instance of DatesYMD class.
 
-#### Methods:
+### Methods:
 
-##### `diffArray()`
+#### `diffArray()`
 
 Calculates the difference between two dates and returns an array containing Y(years), M(months), D(days), and a formatted 'aY bM cD' difference string.
 
@@ -181,7 +181,7 @@ const result = Formatter.diffArray();
 - **`Returns:`**
   An array containing the calculated years, months, days, and the formatted difference.
 
-##### `formattedYMD()`
+#### `formattedYMD()`
 
 Returns the formatted difference between two dates in aY bM cD(aYears bMonths cDays) format.
 
@@ -191,7 +191,7 @@ const result = Formatter.formattedYMD();
 
 - **`Returns:`** A string in the format 'aY bM cD'.
 
-##### `customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator)`
+#### `customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator)`
 
 Customizes the difference using specified units and separators
 
@@ -206,7 +206,7 @@ const result = Formatter.customizeFormat(
 
 - **`Returns:`** A customized formatted difference string of form (a + yearUnit + partSeparator + b + monthUnit + partSeparator + c + dayUnit), eg. aYs-bMs-cDs etc.
 
-##### `diffInMonths()`
+#### `diffInMonths()`
 
 Calculates the difference in months between two dates.
 
@@ -216,7 +216,7 @@ const monthsDifference = Formatter.diffInMonths();
 
 - **Returns:** The difference in months.
 
-##### `diffInWeeks()`
+#### `diffInWeeks()`
 
 Calculates the difference in weeks between two dates.
 
@@ -226,7 +226,7 @@ const weeksDifference = Formatter.diffInWeeks();
 
 - **Returns:** The difference in weeks.
 
-##### `diffInDays()`
+#### `diffInDays()`
 
 Calculates the difference in days between two dates.
 
@@ -236,7 +236,7 @@ const daysDifference = Formatter.diffInDays();
 
 - **Returns:** The difference in days.
 
-##### `diffInYears()`
+#### `diffInYears()`
 
 Calculates the difference in years between two dates.
 
@@ -246,7 +246,7 @@ const yearsDifference = Formatter.diffInYears();
 
 - **Returns:** The difference in years.
 
-##### `diffInHours()`
+#### `diffInHours()`
 
 Calculates the difference in hours between two dates.
 
@@ -256,7 +256,7 @@ const hoursDifference = Formatter.diffInHours();
 
 - **Returns:** The difference in hours.
 
-##### `diffInMinutes()`
+#### `diffInMinutes()`
 
 Calculates the difference in minutes between two dates.
 
@@ -266,7 +266,7 @@ const minutesDifference = Formatter.diffInMinutes();
 
 - **Returns:** The difference in minutes.
 
-##### `diffInSeconds()`
+#### `diffInSeconds()`
 
 Calculates the difference in seconds between two dates.
 
