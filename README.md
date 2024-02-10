@@ -27,7 +27,7 @@ npm install @farhan7reza7/diff-ymd-package
 
 ## Usages
 
-**Initialize**
+### `Initialize:`
 
 ```javascript
 //const DatesYMD = require('@farhan7reza7/diff-ymd-package'); //or
@@ -35,7 +35,7 @@ npm install @farhan7reza7/diff-ymd-package
 const DatesYMD = require('diff-ymd-package'); // can use any
 ```
 
-**Create an instance**
+### `Create an instance:`
 
 ```javascript
 const date1 = '2022-01-01';
@@ -55,8 +55,8 @@ const date2 = '2023-12-31';
 const Formatter = DatesYMD.diffDates(date1, date2); // can use any
 ```
 
-**Use methods to format difference**
-
+### `Use methods to format difference:`
+ 
 ```javascript
 // format output in aY bM cD format
 const result = Formatter.formattedYMD(); // Output: "1Y 11M 30D"
@@ -89,7 +89,7 @@ const minutesDifference = Formatter.diffInMinutes(); // Output: 1049760
 const secondsDifference = Formatter.diffInSeconds(); // Output: 62985600
 ```
 
-**Formatted Outputs**
+### `Formatted Outputs:`
 
 ```javascript
 console.log(result); // Output: "1Y 11M 30D"
