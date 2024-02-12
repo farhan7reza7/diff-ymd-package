@@ -135,10 +135,21 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.1 on
 
 fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on npm registry
 
+
+### [v2.0.3]
+
+#### Fixed
+
+- formatted readme documentation for better presentation
+- added wiki for diff-ymd-package better docummentation
+- updated diff-ymd-package gh-pages documention
+- fixed some other issues and configured files for v2.0.3
+
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.0.2...HEAD)
-- [v2.0.2](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.0.2)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.0.3...HEAD)
+- [v2.0.3](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.0.3)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
