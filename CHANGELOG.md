@@ -143,6 +143,7 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 - formatted readme documentation for better presentation
 - added wiki for diff-ymd-package better docummentation
 - updated diff-ymd-package gh-pages documention
+- updated varaibles keywords to modern Js keywords
 - fixed some other issues and configured files for v2.0.3
 
 
