@@ -292,7 +292,7 @@ const secondsDifference = Formatter.diffInSeconds();
 
 If you find any issues or have suggestions for improvement, please open an issue or create a pull request on the GitHub repository.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more informations.
+[See CONTRIBUTING.md](CONTRIBUTING.md) for more informations.
 
 ## Best Practices:
 
@@ -312,7 +312,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For more details about what has changed in each version of this project.  
 
-See [CHANGELOG.md](CHANGELOG.md).
+[See CHANGELOG.md](CHANGELOG.md).
 
 [npm-image]: https://img.shields.io/npm/v/diff-ymd-package
 [npm-url]: https://www.npmjs.com/package/diff-ymd-package
