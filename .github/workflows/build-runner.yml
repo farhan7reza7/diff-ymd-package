@@ -8,12 +8,13 @@ on:
       - modular
   pull_request:
     branches:
-      - main
+      - modular
   workflow_dispatch:
-  
+      
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/modular'
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
