@@ -5,10 +5,10 @@ name: build-runner
 on:
   push:
     branches:
-      - modular
+      - main
   pull_request:
     branches:
-      - modular
+      - main
   workflow_dispatch:
       
 jobs:
