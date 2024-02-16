@@ -365,8 +365,8 @@ class DatesYMD {
  * @returns {DatesYMD} An object containing methods for date difference calculations.
  */
 function diffDates(firstDate, secondDate) {
-  const DatesYMD = new DatesYMD(firstDate, secondDate); 
-  return DatesYMD;
+  const YMD = new DatesYMD(firstDate, secondDate); 
+  return YMD;
 }
 
 // Export the DatesYMD class and closure function diffDates for usages in other modules
