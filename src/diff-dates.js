@@ -1,4 +1,4 @@
-const DatesYMD = require('./diff-ymd');
+const DatesYMD = require('./DatesYMD');
 
 /**
  * Represents a utility for calculating the difference between two dates in formatted or desired customized ways.
