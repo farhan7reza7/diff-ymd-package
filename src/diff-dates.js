@@ -31,4 +31,5 @@ function diffDates(firstDate, secondDate) {
   return YMD;
 }
 
+// Export the function diffDates for usages in other modules
 module.exports = diffDates;
