@@ -181,11 +181,17 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 - Continuous Integration: Integrated automated testing with GitHub Actions for ongoing code quality assurance.
 
 
+### [v2.1.1]
+
+#### Fixed
+- Updated package.json main field for corrected issue in v2.1.0
+- fixed some other issues and configured files for v2.1.1
+
 
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.1.0...HEAD)
-- [v2.1.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.1.0)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.1.1...HEAD)
+- [v2.1.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.1.1)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
