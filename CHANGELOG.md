@@ -157,11 +157,14 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 - Added the `diffDates` function in separate file
 - Updated tests codes
 - Updated the README.md documentation for better presentation.
+- Enhanced README.md for follwing best practices
 
 #### Changed
 
 - Improved algorithm efficiency: Enhanced performance for existing methods to provide faster calculations.
 - Modified internal structure: Refactored internal code for better readability and maintainability.
+- Enhanced README.md for follwing best practices
+
 
 #### Fixed
 
@@ -170,7 +173,7 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 
 #### Documentation
 
-- README.md updated: Added consistent formating best practices.
+- README.md updated: Added consistent formating and recommended for best practices.
 - Enhanced code comments: Provided thorough inline documentation for better codes understanding.
 
 #### Testing
