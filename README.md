@@ -9,6 +9,19 @@
 [![License][license-image]][licence-url]
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-farhanReza-blue)](https://www.linkedin.com/in/farhan7reza7/)
 
+## Table of Contents
+
+- [Installation](#installation)
+  - [Install from npm registry](#install-from-npm-registry)
+  - [Install from Github Packages registry](#install-from-github-packages-registry)
+- [Usages](#usages)
+- [API References](#api-references)
+- [API Documentation](#api-documentation)  
+- [Contributing](#contributing)
+- [Best Practices](#best-practices)
+- [License](#license)
+- [History](#history)
+
 ## Installation
 
 ### Install from `npm registry`
@@ -133,6 +146,24 @@ console.log(minutesDifference); // Output: 1049760
 console.log(secondsDifference); // Output: 62985600
 // Calculate the difference in seconds
 ```
+
+## API References
+**diff-ymd-package**
+- [Classes](#api-documentation)
+  - [DatesYMD](#datesymd)
+    - [Create an instance of DatesYMD](#create-an-instance-of-datesymd)
+    - [OR for version 2.x.x and above, Can use simplified function diffDates on module-object](#can-use-simplified-function-diffdates-on-module-object)
+  - [Methods](#methods)
+    - [diffArray()](#diffarray)
+    - [formattedYMD()](#formattedymd)
+    - [customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator)](#customizeformatyearunit-monthunit-dayunit-partseparator)
+    - [diffInMonths()](#diffinmonths)
+    - [diffInWeeks()](#diffinweeks)
+    - [diffInDays()](#diffindays)
+    - [diffInYears()](#diffinyears)
+    - [diffInHours()](#diffinhours)
+    - [diffInMinutes()](#diffinminutes)
+    - [diffInSeconds()](#diffinseconds)
 
 ## API Documentation
 

@@ -147,10 +147,45 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 - fixed some other issues and configured files for v2.0.3
 
 
+
+### [v2.1.0] - [2024-02-17]
+
+#### Added
+
+- **Simplification:** Modularize the diff-ymd-package
+- Added the `DatesYMD` class in separate file
+- Added the `diffDates` function in separate file
+- Updated tests codes
+- Updated the README.md documentation for better presentation.
+- Enhanced README.md for follwing best practices
+
+#### Changed
+
+- Improved algorithm efficiency: Enhanced performance for existing methods to provide faster calculations.
+- Modified internal structure: Refactored internal code for better readability and maintainability.
+- Enhanced README.md for follwing best practices
+
+
+#### Fixed
+
+- Fixed some issues related to the new changes.
+- Configured files for publishing diff-ymd-package v2.1.0 on npm registry.
+
+#### Documentation
+
+- README.md updated: Added consistent formating and recommended for best practices.
+- Enhanced code comments: Provided thorough inline documentation for better codes understanding.
+
+#### Testing
+
+- Continuous Integration: Integrated automated testing with GitHub Actions for ongoing code quality assurance.
+
+
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.0.3...HEAD)
-- [v2.0.3](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.0.3)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.1.0...HEAD)
+- [v2.1.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.1.0)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
