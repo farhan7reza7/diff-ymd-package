@@ -337,6 +337,3 @@ export default class DatesYMD {
     return seconds;
   }
 }
-
-// Export the DatesYMD class for usages in other modules
-//module.exports = DatesYMD;
