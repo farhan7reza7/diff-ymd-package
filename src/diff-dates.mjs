@@ -1,5 +1,5 @@
 //const DatesYMD = require('./DatesYMD');
-import DatesYMD from "./DatesYMD";
+import DatesYMD from "./DatesYMD.mjs";
 
 /**
  * Represents a utility for calculating the difference between two dates in formatted or desired customized ways.
