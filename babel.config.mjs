@@ -17,11 +17,11 @@
   };
 };
 */
-export default function (api) {
-  api.cache(true);
-
-  const presets = [
-    [
+export default async function () {
+  return {
+    presets: [
+      // your presets here
+      [
       '@babel/preset-env',
       {
         targets: {
@@ -29,10 +29,9 @@ export default function (api) {
         },
       },
     ],
-  ];
-
-  return {
-    presets,
+    ],
+    plugins: [
+      // your plugins here
+    ],
   };
 }
-
