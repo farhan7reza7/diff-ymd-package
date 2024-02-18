@@ -27,3 +27,6 @@ jobs:
       run: |
         npm install
         npx webpack
+    - name: Log Output Path
+      run: echo $PWD
+
