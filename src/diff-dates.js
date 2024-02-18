@@ -1,4 +1,5 @@
-const DatesYMD = require('./DatesYMD');
+//const DatesYMD = require('./DatesYMD');
+import DatesYMD from "./DatesYMD";
 
 /**
  * Represents a utility for calculating the difference between two dates in formatted or desired customized ways.
@@ -26,10 +27,10 @@ const DatesYMD = require('./DatesYMD');
  *
  * @returns {DatesYMD} An object containing methods for date difference calculations.
  */
-function diffDates(firstDate, secondDate) {
+export default function diffDates(firstDate, secondDate) {
   const YMD = new DatesYMD(firstDate, secondDate); 
   return YMD;
 }
 
 // Export the function diffDates for usages in other modules
-module.exports = diffDates;
+//module.exports = diffDates;
