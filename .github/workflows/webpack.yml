@@ -30,6 +30,6 @@ jobs:
     - name: Log Output Path
       run: echo $PWD
     - name: List Parent Directory
-      run: ls -al ../
+      run: ls -al ../diff-ymd-package
 
 
