@@ -148,7 +148,7 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 
 
 
-### [v2.1.0] - [2024-02-17]
+### [v2.1.0]
 
 #### Added
 
@@ -187,11 +187,37 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 - Updated package.json main field for corrected issue in v2.1.0
 - fixed some other issues and configured files for v2.1.1
 
+### [v2.2.0] - [2024-02-17]
+
+#### Added
+
+- **Simplification:** README.md documentation of diff-ymd-package
+- Updated corrected github registry description in README.md documentation
+- Updated the README.md documentation for better presentation.
+- Enhanced README.md for follwing best practices
+
+#### Changed
+
+- Corrected github registry description of README.md documentation
+- Enhanced README.md for follwing best practices
+
+#### Fixed
+
+- Fixed some issues related to the new changes.
+- Configured files for publishing diff-ymd-package v2.2.0 on npm registry.
+
+#### Documentation
+
+- README.md updated: Added correction and consistent formating and recommended for best practices.
+
+#### Testing
+
+- Continuous Integration: Integrated automated testing with GitHub Actions for ongoing code quality assurance.
 
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.1.1...HEAD)
-- [v2.1.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.1.1)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.2.0...HEAD)
+- [v2.2.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.2.0)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
