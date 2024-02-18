@@ -1,6 +1,6 @@
 export default {
   transform: {
-    '^.+\\.js$': 'babel-jest',
+    '^.+\\.[t|j]sx?$': 'babel-jest',
   },
   testEnvironment: 'node',
 };
