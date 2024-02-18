@@ -4,7 +4,7 @@ module.exports = {
   mode: 'production', // or 'development'
   entry: './src/index.js', // Entry point of your application
   output: {
-    path: path.resolve(__dirname, '..', 'lib'), // Output directory
+    path: path.resolve(__dirname, '../diff-ymd-package', 'lib'), // Output directory
     filename: 'index.js', // Output filename
     library: 'DatesYMD', // Name of your library
     libraryTarget: 'umd', // Universal Module Definition
