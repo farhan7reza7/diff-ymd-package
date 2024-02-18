@@ -153,18 +153,18 @@ console.log(secondsDifference); // Output: 62985600
   - [DatesYMD](#datesymd)
     - [Create an instance of DatesYMD](#create-an-instance-of-datesymd)
     - [OR for version 2.x.x and above, Can use simplified function diffDates on module-object](#can-use-simplified-function-diffdates-on-module-object)
-  - [Methods](#methods)
-    - [diffArray()](#diffarray)
-    - [formattedYMD()](#formattedymd)
-    - [customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator)](#customizeformatyearunit-monthunit-dayunit-partseparator)
-    - [diffInMonths()](#diffinmonths)
-    - [diffInWeeks()](#diffinweeks)
-    - [diffInDays()](#diffindays)
-    - [diffInYears()](#diffinyears)
-    - [diffInHours()](#diffinhours)
-    - [diffInMinutes()](#diffinminutes)
-    - [diffInSeconds()](#diffinseconds)
-
+    - [Methods](#methods)
+        - [diffArray()](#diffarray)
+        - [formattedYMD()](#formattedymd)
+        - [customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator)](#customizeformatyearunit-monthunit-dayunit-partseparator)
+        - [diffInMonths()](#diffinmonths)
+        - [diffInWeeks()](#diffinweeks)
+        - [diffInDays()](#diffindays)
+        - [diffInYears()](#diffinyears)
+        - [diffInHours()](#diffinhours)
+        - [diffInMinutes()](#diffinminutes)
+        - [diffInSeconds()](#diffinseconds)
+    
 ## API Documentation
 
 ### `DatesYMD`
@@ -323,7 +323,7 @@ const secondsDifference = Formatter.diffInSeconds();
 
 If you find any issues or have suggestions for improvement, please open an issue or create a pull request on the GitHub repository.
 
-[See CONTRIBUTING.md](CONTRIBUTING.md) for more informations.
+[See CONTRIBUTING guidelines](CONTRIBUTING.md) for more information.
 
 ## Best Practices:
 
@@ -332,6 +332,8 @@ If you find any issues or have suggestions for improvement, please open an issue
 - Meaningful variable and function names for clarity.
 - Clear and concise comments to enhance understanding.
 - Proper indentation and formatting for visual organization.
+
+[See mdn guidelines](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript) for more information.
 
 ## License
 
@@ -343,7 +345,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For more details about what has changed in each version of this project.  
 
-[See CHANGELOG.md](CHANGELOG.md).
+[See CHANGELOG](CHANGELOG.md).
 
 [npm-image]: https://img.shields.io/npm/v/diff-ymd-package
 [npm-url]: https://www.npmjs.com/package/diff-ymd-package
