@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'production', // or 'development'
   entry: './src/index.js', // Entry point of your application
   output: {
     path: path.resolve(__dirname, 'lib'), // Output directory
