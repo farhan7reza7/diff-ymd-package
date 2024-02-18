@@ -29,4 +29,7 @@ jobs:
         npx webpack
     - name: Log Output Path
       run: echo $PWD
+    - name: List Parent Directory
+      run: ls -al ../
+
 
