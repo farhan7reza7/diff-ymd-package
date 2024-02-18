@@ -3,7 +3,7 @@
  *
  * @class
  */
-class DatesYMD {
+export default class DatesYMD {
   /**
    * Creates an instance of DatesYMD.
    *
@@ -339,4 +339,4 @@ class DatesYMD {
 }
 
 // Export the DatesYMD class for usages in other modules
-module.exports = DatesYMD;
+//module.exports = DatesYMD;
