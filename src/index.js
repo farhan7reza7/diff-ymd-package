@@ -3,7 +3,8 @@
  *
  * @class
  */
-const DatesYMD = require("./DatesYMD");
+//const DatesYMD = require("./DatesYMD");
+import DatesYMD from "./DatesYMD";
 
 
 /**
@@ -32,8 +33,11 @@ const DatesYMD = require("./DatesYMD");
  *
  * @returns {DatesYMD} An object containing methods for date difference calculations.
  */
-const diffDates = require("./diff-dates");
-
+//const diffDates = require("./diff-dates");
+import diffDates from "./diff-dates";
 // Export the DatesYMD class and equivalent function diffDates for usages in other modules
-module.exports = DatesYMD; // default export for class
-module.exports.diffDates = diffDates; // named export for equivalent function
+//module.exports = DatesYMD; // default export for class
+//module.exports.diffDates = diffDates; // named export for equivalent function
+
+export default DatesYMD;
+export {diffDates};
