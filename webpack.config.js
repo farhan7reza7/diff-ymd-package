@@ -24,4 +24,8 @@ module.exports = {
       },
     ],
   },
+  // Add this to see any webpack-related errors
+  stats: {
+    colors: true,
+  },
 };
