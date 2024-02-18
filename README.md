@@ -345,7 +345,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For more details about what has changed in each version of this project.  
 
-[See CHANGELOG](CHANGELOG.md).
+[See CHANGELOG](CHANGELOG.md)
 
 [npm-image]: https://img.shields.io/npm/v/diff-ymd-package
 [npm-url]: https://www.npmjs.com/package/diff-ymd-package
