@@ -38,7 +38,7 @@ jobs:
       
       # Linting step
       - name: Run linter
-        run: deno lint || true
+        run: deno lint ../diff-ymd-package/src || true
      
       # Step to fix formatting issues after linting
       - name: Fix formatting issues
