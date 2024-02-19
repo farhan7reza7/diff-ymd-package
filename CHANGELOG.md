@@ -220,10 +220,30 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 - Updated codebase for delivery library through cdn as well as npm
 - fixed some other issues and configured files for v2.2.1
 
+### [v2.3.0]
+
+#### Added
+
+- **Simplification:** Added CDN approach for diff-ymd-package
+- Added the doc for CDN approach in readme file
+- Added doc for CDN approach in jsdoc live doc
+
+#### Changed
+
+- Improved algorithm efficiency: Enhanced performance for existing methods to provide faster calculations.
+- Modified internal structure: Refactored internal code for better readability and maintainability.
+- Updated Readme and jsdoc doc for CDN approach
+
+#### Fixed
+
+- Fixed some issues related to the new changes.
+- Configured files for publishing diff-ymd-package v2.3.0 on npm registry.
+
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.2.1...HEAD)
-- [v2.2.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.2.1)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.3.0...HEAD)
+- [v2.3.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.3.0)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
