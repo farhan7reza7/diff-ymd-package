@@ -20,9 +20,7 @@ module.exports = {
           loader: 'babel-loader', // Use babel-loader for transpilation
           options: {
             presets: ['@babel/preset-env',  {
-        targets: {
-          node: 'current',
-        },
+        
         modules: 'auto',
       },], // Use @babel/preset-env for compatibility
           },
