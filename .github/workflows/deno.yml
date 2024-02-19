@@ -26,7 +26,7 @@ jobs:
 
       # Step to format the code
       - name: Format code
-        run: deno fmt
+        run: deno fmt --fix || true
 
       # Uncomment this step to verify the use of 'deno fmt' on each commit.
       - name: Verify formatting
@@ -38,7 +38,7 @@ jobs:
      
       # Step to fix formatting issues after linting
       - name: Fix formatting issues
-        run: deno fmt || true
+        run: deno fmt --fix || true
         #continue-on-error: true
       
       - name: Run tests
