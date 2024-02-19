@@ -26,7 +26,7 @@ jobs:
 
       # Step to format the code
       - name: Format code
-        run: deno fmt ../diff-ymd-package/src --fix || true
+        run: deno fmt ../diff-ymd-package/src || true
 
       # Uncomment this step to verify the use of 'deno fmt' on each commit.
       - name: Verify formatting
@@ -34,15 +34,15 @@ jobs:
      
      # Step to fix linting issues
       - name: Fix lint issues
-        run: deno lint ../diff-ymd-package/src --fix || true
+        run: deno lint ../diff-ymd-package/src || true
       
       # Linting step
       - name: Run linter
-        run: deno lint ../diff-ymd-package/src || true
+        run: deno lint ../diff-ymd-package/src --check || true
      
       # Step to fix formatting issues after linting
       - name: Fix formatting issues
-        run: deno fmt ../diff-ymd-package/src --fix || true
+        run: deno fmt ../diff-ymd-package/src || true
       
       - name: Run tests
         run: deno test -A || true
