@@ -14,6 +14,7 @@
 - [Installation](#installation)
   - [Install from npm registry](#install-from-npm-registrypreference)
   - [Install from Github Packages registry](#install-from-github-packages-registryrequire-authentication)
+  - [Include in html page from CDN](#include-in-html-page-from-cdn)
 - [Usages](#usages)
 - [API References](#api-references)
 - [API Documentation](#api-documentation)  
@@ -41,6 +42,19 @@ npm install @farhan7reza7/diff-ymd-package
 ##### Steps to install from `Github Packages registry`:
 [See steps here](https://github.com/farhan7reza7/diff-ymd-package/wiki/Github-Packages-registry-Steps)
 
+### Include in html page from `CDN`
+
+**`OR` for version `2.2.1` and `above`**
+
+**Can include in page `using script tag` from CDN**
+
+```html
+    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@2.2.1/lib/index.min.js"></script>
+
+```
+
+[Get any supported version script tag](https://github.com/farhan7reza7/diff-ymd-package/wiki/Supported-versions-script-tags)
+
 ## Usages
 
 ### `Initialize:`
@@ -49,6 +63,15 @@ npm install @farhan7reza7/diff-ymd-package
 //const DatesYMD = require('@farhan7reza7/diff-ymd-package'); //or
 
 const DatesYMD = require('diff-ymd-package'); // can use any if authenticated
+
+```
+
+**`OR` for version `2.2.1` and `above`**
+
+**Can include in html page `using script tag` from `CDN`**
+
+```html
+    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@2.2.1/lib/index.min.js"></script>
 
 ```
 
@@ -71,6 +94,10 @@ const date2 = '2023-12-31';
 
 const Formatter = DatesYMD.diffDates(date1, date2); // can use any
 ```
+
+**Note:** For CDN based, only **DatesYMD** constructor name creates an instance, and can use diffDates as well, but only using global **DatesYMD** like **DatesYMD.diffDates(...)**
+
+[See an example of using CDN based](https://github.com/farhan7reza7/diff-ymd-package/wiki/CDN-based-example)
 
 ### `Use methods to format difference:`
  
