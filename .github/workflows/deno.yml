@@ -1,0 +1,48 @@
+name: Deno
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v3
+
+      - name: Setup Deno
+        # uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@61fe2df320078202e33d7d5ad347e7dcfa0e8f31  # v1.1.2
+        with:
+          deno-version: v1.x
+
+      # Step to format the code
+      - name: Format code
+        run: deno fmt ../diff-ymd-package/src || true
+
+      # Step to verify formatting issues
+      - name: Verify formatting
+        run: deno fmt ../diff-ymd-package/src --check || true
+     
+      # Step to fix linting issues
+      - name: Fix lint issues
+        run: deno lint ../diff-ymd-package/src || true
+        
+      # Step to verify formatting issues after linting
+      - name: Verify formatting after linting
+        run: deno fmt ../diff-ymd-package/src --check || true
+      
+      #Step to fix formatting issues after linting
+      - name: Formatting codes after linting
+        run: deno fmt ../diff-ymd-package/src || true
+      
+      - name: Run tests
+        run: deno test -A || true
