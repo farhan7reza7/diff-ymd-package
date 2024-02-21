@@ -14,6 +14,7 @@
     "diff-ymd",
     "diff-library",
     "dates",
+    "date-difference",
     "time-intervals",
     "formatted-difference",
     "formatted-dates-difference",
