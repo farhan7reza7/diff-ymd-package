@@ -132,6 +132,9 @@ const minutesDifference = Formatter.diffInMinutes(); // Output: 1049760
 // Calculate the difference in seconds
 const secondsDifference = Formatter.diffInSeconds(); // Output: 62985600
 ```
+**Get `Built in  codes` `for using` diff-ymd-package `any Method` on `created instance(Formatter)`**
+
+[Get Built in codes here](https://github.com/farhan7reza7/diff-ymd-package/wiki/Built-in--codes)
 
 ### `Formatted Outputs:`
 
