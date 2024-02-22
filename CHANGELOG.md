@@ -239,11 +239,19 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 - Fixed some issues related to the new changes.
 - Configured files for publishing diff-ymd-package v2.3.0 on npm registry.
 
+### [v2.3.1]
+
+#### Fixed
+- Updated reademe doc for documenting cdn and npm approach following best practices
+- fixed some other issues and configured files for v2.3.1
+
+#### Changed
+- Updated links to abs url for cross compatibility
 
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.3.0...HEAD)
-- [v2.3.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.3.0)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.3.1...HEAD)
+- [v2.3.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.3.1)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
