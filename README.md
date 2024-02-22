@@ -7,7 +7,8 @@
 [![github-build-published][github-image]][github-url]
 [![CI][ci-image]][ci-url]
 [![License][license-image]][licence-url]
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-farhanReza-blue)](https://www.linkedin.com/in/farhan7reza7/)
+[![LinkedIn][linked-image]][linked-url]
+
 
 ## Table of Contents
 
@@ -391,5 +392,5 @@ For more details about what has changed in each version of this project.
 [ci-url]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment
 [license-image]: https://img.shields.io/github/license/farhan7reza7/diff-ymd-package
 [licence-url]: https://opensource.org/licenses/MIT
-
-<!--[license-image]: https://github.com/farhan7reza7/diff-ymd-package/assets/108195448/e81a03ab-3c61-4cf6-b8f9-ec49a006a191-->
+[linked-image]: https://img.shields.io/badge/LinkedIn-FarhanReza-blue
+[linked-url]: https://www.linkedin.com/in/farhan7reza7/
