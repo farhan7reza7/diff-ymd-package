@@ -248,10 +248,20 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 #### Changed
 - Updated links to abs url for cross compatibility
 
+### [v2.3.2]
+
+#### Fixed
+- updated doc for documenting latest cdn and npm approach following best practices for v2.3.2
+- fixed some other issues and configured files for v2.3.2
+
+#### Changed
+- added security dependabot
+- added codeql
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.3.1...HEAD)
-- [v2.3.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.3.1)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.3.2...HEAD)
+- [v2.3.2](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.3.2)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
