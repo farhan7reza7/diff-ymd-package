@@ -50,7 +50,7 @@ npm install @farhan7reza7/diff-ymd-package
 **Can include in page `using script tag` from CDN**
 
 ```html
-    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@2.3.1/lib/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@2.3.2/lib/index.min.js"></script>
 
 ```
 
@@ -72,7 +72,7 @@ const DatesYMD = require('diff-ymd-package'); // can use any if authenticated
 **Can include in html page `using script tag` from `CDN`**
 
 ```html
-    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@2.3.1/lib/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@2.3.2/lib/index.min.js"></script>
 
 ```
 
