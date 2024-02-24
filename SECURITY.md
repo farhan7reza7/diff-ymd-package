@@ -2,24 +2,19 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Security updates are applied only to the most recent release/version.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 2.1.x   | :white_check_mark: |
-| 1.0.x   | :x:                |
-| 2.0.x   | :white_check_mark: |
-| < 2.0   | :x:                |
+| x.y.z@latest   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+To securely report a vulnerability, please [Open an advisory on GitHub](https://github.com/farhan7reza7/diff-ymd-package/security/advisories/new). This form is also accessible when [Submitting a new issue](https://github.com/farhan7reza7/diff-ymd-package/issues/new/choose).
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+## Vulnerability Process
 
----
-
-_This page is to be updated with the relevant contents._
+1. Your report will be acknowledged as soon as possible for us.
+2. The team will investigate and update the issue with relevant information.
+3. If the team does not confirm the report, no further action will be taken and the issue will be closed.
+4. If the team confirms the report, the team will take actions to fix it.
