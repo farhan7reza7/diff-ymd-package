@@ -15,6 +15,6 @@ To securely report a vulnerability, please [Open an advisory on GitHub](https://
 ## Vulnerability Process
 
 1. Your report will be acknowledged as soon as possible for us.
-2. The team will investigate and update the issue with relevant information.
-3. If the team does not confirm the report, no further action will be taken and the issue will be closed.
-4. If the team confirms the report, the team will take actions to fix it.
+2. We will investigate and update the issue with relevant information.
+3. If we do not confirm the report, no further action will be taken and the issue will be closed.
+4. If we confirm the report, we will take actions to fix it.
