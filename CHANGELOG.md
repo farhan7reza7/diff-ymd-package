@@ -258,10 +258,30 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 - added security dependabot
 - added codeql
 
+### [v3.0.0] - [2024-02-24]
+
+#### Added
+
+- **Simplification:** Integrated security vurneability support
+- Updated the README.md documentation for following the best practices.
+
+#### Changed
+- Updated the README.md documentation for following the best practices.
+- Updated issue templates with correct descriptions and links
+
+#### Fixed
+
+- Fixed some issues related to the new changes.
+- Configured files for publishing diff-ymd-package v3.0.0.
+
+#### Documentation
+
+- README.md updated: Added consistent formating and recommended for best practices.
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.3.2...HEAD)
-- [v2.3.2](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.3.2)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.0.0...HEAD)
+- [v3.0.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.0.0)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
