@@ -1,40 +1,81 @@
 # diff-ymd-package
 
-> `diff-ymd-package` a `javascript library` provides APIs to difference dates in formatted ways(like (aYears bMonths cDays) or (aY bM cD) etc., eg. age = 20Y 2M 23D or datesDifference = 2Years 11Months 20Days) or customized desired formats like aY-bM-cD or aYears-bMonths-cDays or kDays or mWeeks or nMonths etc.
+> `diff-ymd-package` a `javascript library` provides APIs to difference dates in formatted ways(like (`aYears bMonths cDays`) or (`aY bM cD`) etc., eg. age = `20Y 2M 23D` or datesDifference = `2Years 11Months 20Days`) or customized desired formats like `aY-bM-cD` or `aYears-bMonths-cDays` or `kDays` or `mWeeks` or `nMonths` etc.
 
 [![NPM Version][npm-image]][npm-url]
 [![npm-build-published][npm-ci-image]][npm-ci-url]
 [![github-build-published][github-image]][github-url]
 [![CI][ci-image]][ci-url]
 [![License][license-image]][licence-url]
+[![LinkedIn][linked-image]][linked-url]
+
+## Table of Contents
+
+- [Installation](#installation)
+  - [Install from npm registry](#install-from-npm-registrypreference)
+  - [Install from Github Packages registry](#install-from-github-packages-registryrequire-authentication)
+  - [Include in html page from CDN](#include-in-html-page-from-cdn)
+- [Usages](#usages)
+- [API References](#api-references)
+- [API Documentation](#api-documentation)  
+- [Contributing](#contributing)
+- [Best Practices](#best-practices)
+- [License](#license)
+- [History](#history)
 
 ## Installation
 
-### Install from `npm registry`
+### Install from `npm registry`(Preference)
 
 ```bash
 npm install diff-ymd-package
 
 ```
 
-### Install from `Github Packages registry`
+### Install from `Github Packages registry`(require authentication)
 
 ```bash
 npm install @farhan7reza7/diff-ymd-package
 
 ```
 
-## Usages
+##### Steps to install from `Github Packages registry`:
+[See steps here](https://github.com/farhan7reza7/diff-ymd-package/wiki/Github-Packages-registry-Steps)
 
-**Initialize**
+### Include in html page from `CDN`
 
-```javascript
-//const DatesYMD = require('@farhan7reza7/diff-ymd-package'); or
+**`OR` for version `2.2.1` and `above`**
 
-const DatesYMD = require('diff-ymd-package'); // can use any
+**Can include in page `using script tag` from CDN**
+
+```html
+    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@3.0.0/lib/index.min.js"></script>
+
 ```
 
-**Create an instance**
+[Get any supported version script tag](https://github.com/farhan7reza7/diff-ymd-package/wiki/Supported-versions-script-tags)
+
+## Usages
+
+### `Initialize:`
+
+```javascript
+//const DatesYMD = require('@farhan7reza7/diff-ymd-package'); //or
+
+const DatesYMD = require('diff-ymd-package'); // can use any if authenticated
+
+```
+
+**`OR` for version `2.2.1` and `above`**
+
+**Can include in html page `using script tag` from `CDN`**
+
+```html
+    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@3.0.0/lib/index.min.js"></script>
+
+```
+
+### `Create an instance:`
 
 ```javascript
 const date1 = '2022-01-01';
@@ -54,8 +95,12 @@ const date2 = '2023-12-31';
 const Formatter = DatesYMD.diffDates(date1, date2); // can use any
 ```
 
-**Use methods to format difference**
+**Note:** For CDN based, only **DatesYMD** constructor name creates an instance, and can use diffDates as well, but only using global **DatesYMD** like **DatesYMD.diffDates(...)**
 
+[See an example of using CDN based](https://github.com/farhan7reza7/diff-ymd-package/wiki/CDN-based-example)
+
+### `Use methods to format difference:`
+ 
 ```javascript
 // format output in aY bM cD format
 const result = Formatter.formattedYMD(); // Output: "1Y 11M 30D"
@@ -87,8 +132,11 @@ const minutesDifference = Formatter.diffInMinutes(); // Output: 1049760
 // Calculate the difference in seconds
 const secondsDifference = Formatter.diffInSeconds(); // Output: 62985600
 ```
+**Get `Built in  codes` `for using` diff-ymd-package `any Method` on `created instance(Formatter)`**
 
-**Formatted Outputs**
+[Get Built in codes here](https://github.com/farhan7reza7/diff-ymd-package/wiki/Built-in--codes)
+
+### `Formatted Outputs:`
 
 ```javascript
 console.log(result); // Output: "1Y 11M 30D"
@@ -133,6 +181,24 @@ console.log(secondsDifference); // Output: 62985600
 // Calculate the difference in seconds
 ```
 
+## API References
+**diff-ymd-package**
+- [Classes](#api-documentation)
+  - [DatesYMD](#datesymd)
+    - [Create an instance of DatesYMD](#create-an-instance-of-datesymd)
+    - [OR for version 2.x.x and above, Can use simplified function diffDates on module-object](#can-use-simplified-function-diffdates-on-module-object)
+    - [Methods](#methods)
+        - [diffArray()](#diffarray)
+        - [formattedYMD()](#formattedymd)
+        - [customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator)](#customizeformatyearunit-monthunit-dayunit-partseparator)
+        - [diffInMonths()](#diffinmonths)
+        - [diffInWeeks()](#diffinweeks)
+        - [diffInDays()](#diffindays)
+        - [diffInYears()](#diffinyears)
+        - [diffInHours()](#diffinhours)
+        - [diffInMinutes()](#diffinminutes)
+        - [diffInSeconds()](#diffinseconds)
+    
 ## API Documentation
 
 ### `DatesYMD`
@@ -146,8 +212,7 @@ const Formatter = new DatesYMD(firstDate, secondDate);
 ```
 
 #### `OR` for version 2.x.x and above
-
-**Can use simplified function `diffDates` on module-object**
+##### Can use simplified function `diffDates` on module-object
 
 ```javascript
 //const DatesYMD = require('@farhan7reza7/diff-ymd-package'); or
@@ -167,9 +232,10 @@ const Formatter = DatesYMD.diffDates(firstDate, secondDate); // can use any
 - **`Returns:`**
   An instance of DatesYMD class.
 
-#### Methods:
 
-##### `diffArray()`
+### `Methods:`
+
+- #### `diffArray()`
 
 Calculates the difference between two dates and returns an array containing Y(years), M(months), D(days), and a formatted 'aY bM cD' difference string.
 
@@ -177,10 +243,11 @@ Calculates the difference between two dates and returns an array containing Y(ye
 const result = Formatter.diffArray();
 ```
 
-- **`Returns:`**
-  An array containing the calculated years, months, days, and the formatted difference.
+**`Returns:`**
+An array containing the calculated years, months, days, and the formatted difference.
 
-##### `formattedYMD()`
+
+- #### `formattedYMD()`
 
 Returns the formatted difference between two dates in aY bM cD(aYears bMonths cDays) format.
 
@@ -188,9 +255,10 @@ Returns the formatted difference between two dates in aY bM cD(aYears bMonths cD
 const result = Formatter.formattedYMD();
 ```
 
-- **`Returns:`** A string in the format 'aY bM cD'.
+**`Returns:`** A string in the format 'aY bM cD'.
 
-##### `customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator)`
+
+- #### `customizeFormat(yearUnit, monthUnit, dayUnit, partSeparator)`
 
 Customizes the difference using specified units and separators
 
@@ -203,9 +271,10 @@ const result = Formatter.customizeFormat(
 );
 ```
 
-- **`Returns:`** A customized formatted difference string of form (a + yearUnit + partSeparator + b + monthUnit + partSeparator + c + dayUnit), eg. aYs-bMs-cDs etc.
+**`Returns:`** A customized formatted difference string of form (a + yearUnit + partSeparator + b + monthUnit + partSeparator + c + dayUnit), eg. aYs-bMs-cDs etc.
 
-##### `diffInMonths()`
+
+- #### `diffInMonths()`
 
 Calculates the difference in months between two dates.
 
@@ -213,9 +282,10 @@ Calculates the difference in months between two dates.
 const monthsDifference = Formatter.diffInMonths();
 ```
 
-- **Returns:** The difference in months.
+**Returns:** The difference in months.
 
-##### `diffInWeeks()`
+
+- #### `diffInWeeks()`
 
 Calculates the difference in weeks between two dates.
 
@@ -223,9 +293,10 @@ Calculates the difference in weeks between two dates.
 const weeksDifference = Formatter.diffInWeeks();
 ```
 
-- **Returns:** The difference in weeks.
+**Returns:** The difference in weeks.
 
-##### `diffInDays()`
+
+- #### `diffInDays()`
 
 Calculates the difference in days between two dates.
 
@@ -233,9 +304,10 @@ Calculates the difference in days between two dates.
 const daysDifference = Formatter.diffInDays();
 ```
 
-- **Returns:** The difference in days.
+**Returns:** The difference in days.
 
-##### `diffInYears()`
+
+- #### `diffInYears()`
 
 Calculates the difference in years between two dates.
 
@@ -243,9 +315,10 @@ Calculates the difference in years between two dates.
 const yearsDifference = Formatter.diffInYears();
 ```
 
-- **Returns:** The difference in years.
+**Returns:** The difference in years.
 
-##### `diffInHours()`
+
+- #### `diffInHours()`
 
 Calculates the difference in hours between two dates.
 
@@ -253,9 +326,10 @@ Calculates the difference in hours between two dates.
 const hoursDifference = Formatter.diffInHours();
 ```
 
-- **Returns:** The difference in hours.
+**Returns:** The difference in hours.
 
-##### `diffInMinutes()`
+
+- #### `diffInMinutes()`
 
 Calculates the difference in minutes between two dates.
 
@@ -263,9 +337,10 @@ Calculates the difference in minutes between two dates.
 const minutesDifference = Formatter.diffInMinutes();
 ```
 
-- **Returns:** The difference in minutes.
+**Returns:** The difference in minutes.
 
-##### `diffInSeconds()`
+
+- #### `diffInSeconds()`
 
 Calculates the difference in seconds between two dates.
 
@@ -273,15 +348,16 @@ Calculates the difference in seconds between two dates.
 const secondsDifference = Formatter.diffInSeconds();
 ```
 
-- **Returns:** The difference in seconds.
+**Returns:** The difference in seconds.<br>
 
-For more informations, [See `diff-ymd-package documentation`](https://farhan7reza7.github.io/diff-ymd-package/global.html)
+### `For more information:`
+[See `diff-ymd-package Documentation`](https://farhan7reza7.github.io/diff-ymd-package/global.html)
 
 ## Contributing
 
 If you find any issues or have suggestions for improvement, please open an issue or create a pull request on the GitHub repository.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more informations.
+[See CONTRIBUTING guidelines](https://github.com/farhan7reza7/diff-ymd-package/blob/main/CONTRIBUTING.md) for more information.
 
 ## Best Practices:
 
@@ -290,6 +366,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more informations.
 - Meaningful variable and function names for clarity.
 - Clear and concise comments to enhance understanding.
 - Proper indentation and formatting for visual organization.
+
+[See mdn guidelines](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript) for more information.
 
 ## License
 
@@ -300,7 +378,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## History
 
 For more details about what has changed in each version of this project.  
-See [CHANGELOG.md](CHANGELOG.md).
+
+[See CHANGELOG](https://github.com/farhan7reza7/diff-ymd-package/blob/main/CHANGELOG.md)
 
 [npm-image]: https://img.shields.io/npm/v/diff-ymd-package
 [npm-url]: https://www.npmjs.com/package/diff-ymd-package
@@ -308,7 +387,9 @@ See [CHANGELOG.md](CHANGELOG.md).
 [npm-ci-url]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/npm-publish-npm-registry.yml
 [github-image]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/npm-publish-github-packages.yml/badge.svg
 [github-url]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/npm-publish-github-packages.yml
-[ci-image]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment/badge.svg
+[ci-image]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main
 [ci-url]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment
 [license-image]: https://img.shields.io/github/license/farhan7reza7/diff-ymd-package
 [licence-url]: https://opensource.org/licenses/MIT
+[linked-image]: https://img.shields.io/badge/LinkedIn-FarhanReza-blue
+[linked-url]: https://www.linkedin.com/in/farhan7reza7/

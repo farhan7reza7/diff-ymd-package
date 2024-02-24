@@ -135,10 +135,153 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.1 on
 
 fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on npm registry
 
+
+### [v2.0.3]
+
+#### Fixed
+
+- formatted readme documentation for better presentation
+- added wiki for diff-ymd-package better docummentation
+- updated diff-ymd-package gh-pages documention
+- updated varaibles keywords to modern Js keywords
+- fixed some other issues and configured files for v2.0.3
+
+
+
+### [v2.1.0]
+
+#### Added
+
+- **Simplification:** Modularize the diff-ymd-package
+- Added the `DatesYMD` class in separate file
+- Added the `diffDates` function in separate file
+- Updated tests codes
+- Updated the README.md documentation for better presentation.
+- Enhanced README.md for follwing best practices
+
+#### Changed
+
+- Improved algorithm efficiency: Enhanced performance for existing methods to provide faster calculations.
+- Modified internal structure: Refactored internal code for better readability and maintainability.
+- Enhanced README.md for follwing best practices
+
+
+#### Fixed
+
+- Fixed some issues related to the new changes.
+- Configured files for publishing diff-ymd-package v2.1.0 on npm registry.
+
+#### Documentation
+
+- README.md updated: Added consistent formating and recommended for best practices.
+- Enhanced code comments: Provided thorough inline documentation for better codes understanding.
+
+#### Testing
+
+- Continuous Integration: Integrated automated testing with GitHub Actions for ongoing code quality assurance.
+
+
+### [v2.1.1]
+
+#### Fixed
+- Updated package.json main field for corrected issue in v2.1.0
+- fixed some other issues and configured files for v2.1.1
+
+### [v2.2.0] - [2024-02-17]
+
+#### Added
+
+- **Simplification:** README.md documentation of diff-ymd-package
+- Updated corrected github registry description in README.md documentation
+- Updated the README.md documentation for better presentation.
+- Enhanced README.md for follwing best practices
+
+#### Changed
+
+- Corrected github registry description of README.md documentation
+- Enhanced README.md for follwing best practices
+
+#### Fixed
+
+- Fixed some issues related to the new changes.
+- Configured files for publishing diff-ymd-package v2.2.0 on npm registry.
+
+#### Documentation
+
+- README.md updated: Added correction and consistent formating and recommended for best practices.
+
+#### Testing
+
+- Continuous Integration: Integrated automated testing with GitHub Actions for ongoing code quality assurance.
+
+### [v2.2.1]
+
+#### Fixed
+- Updated codebase for delivery library through cdn as well as npm
+- fixed some other issues and configured files for v2.2.1
+
+### [v2.3.0]
+
+#### Added
+
+- **Simplification:** Added CDN approach for diff-ymd-package
+- Added the doc for CDN approach in readme file
+- Added doc for CDN approach in jsdoc live doc
+
+#### Changed
+
+- Improved algorithm efficiency: Enhanced performance for existing methods to provide faster calculations.
+- Modified internal structure: Refactored internal code for better readability and maintainability.
+- Updated Readme and jsdoc doc for CDN approach
+
+#### Fixed
+
+- Fixed some issues related to the new changes.
+- Configured files for publishing diff-ymd-package v2.3.0 on npm registry.
+
+### [v2.3.1]
+
+#### Fixed
+- Updated reademe doc for documenting cdn and npm approach following best practices
+- fixed some other issues and configured files for v2.3.1
+
+#### Changed
+- Updated links to abs url for cross compatibility
+
+### [v2.3.2]
+
+#### Fixed
+- updated doc for documenting latest cdn and npm approach following best practices for v2.3.2
+- fixed some other issues and configured files for v2.3.2
+
+#### Changed
+- added security dependabot
+- added codeql
+
+### [v3.0.0] - [2024-02-24]
+
+#### Added
+
+- **Simplification:** Integrated security vurneability support
+- Updated the README.md documentation for following the best practices.
+
+#### Changed
+- Updated the README.md documentation for following the best practices.
+- Updated issue templates with correct descriptions and links
+
+#### Fixed
+
+- Fixed some issues related to the new changes.
+- Configured files for publishing diff-ymd-package v3.0.0.
+
+#### Documentation
+
+- README.md updated: Added consistent formating and recommended for best practices.
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v2.0.2...HEAD)
-- [v2.0.2](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v2.0.2)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.0.0...HEAD)
+- [v3.0.0](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.0.0)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)

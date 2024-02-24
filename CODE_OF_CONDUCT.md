@@ -1,4 +1,4 @@
-### diff-ymd-package's Code of Conduct:
+### `diff-ymd-package's Code of Conduct:`
 
 #### Our Pledge
 

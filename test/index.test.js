@@ -1,5 +1,5 @@
 // Import the exported codes(class: DatesYMD, and closure: diffDates) from source codes file
-const diffCalculator = require('../src/diff-ymd');
+const diffCalculator = require('../lib/index');
 
 // Given dates for testing
 const date1 = '2022-01-01';
