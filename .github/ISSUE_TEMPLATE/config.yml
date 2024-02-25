@@ -17,3 +17,7 @@ newIssueWelcomeComment: >
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
   Thanks for opening this pull request! Please check out our contributing guidelines [here](https://github.com/farhan7reza7/diff-ymd-package/blob/main/CONTRIBUTING.md):
+
+# Comment to be posted to on Pr's merged by a first time user
+firstPRMergeComment: >
+  Congrats on merging your first pull request! We are thankful to you!
