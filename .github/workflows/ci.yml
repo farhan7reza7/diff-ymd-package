@@ -15,6 +15,7 @@ jobs:
       - name: Run tests and collect coverage
         run: npm run test
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v4-beta
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: farhan7reza7/diff-ymd-package
