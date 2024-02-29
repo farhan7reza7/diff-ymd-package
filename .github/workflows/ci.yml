@@ -13,11 +13,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run tests and collect coverage
-        run: |
-          npm run test
-          # Add debugging steps to print out coverage report or check for errors
-          ls -l coverage  # Print out contents of the coverage directory
-          cat coverage/lcov.info  # Print out the contents of the coverage report file
+        run: npm run test
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4-beta
         env:
