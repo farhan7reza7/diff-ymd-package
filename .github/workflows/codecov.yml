@@ -1,5 +1,5 @@
 name: Workflow for Codecov example-javascript
-on: [workflow_dispatch]
+on: [workflow_dispatch, push, pull_request]
 jobs:
   run:
     runs-on: ubuntu-latest
