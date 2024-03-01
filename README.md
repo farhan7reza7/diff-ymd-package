@@ -6,6 +6,7 @@
 [![npm-build-published][npm-ci-image]][npm-ci-url]
 [![github-build-published][github-image]][github-url]
 [![CI][ci-image]][ci-url]
+[![Codecov-report][codecov-img]][codecov-url]
 [![License][license-image]][licence-url]
 [![LinkedIn][linked-image]][linked-url]
 
@@ -393,3 +394,5 @@ For more details about what has changed in each version of this project.
 [licence-url]: https://opensource.org/licenses/MIT
 [linked-image]: https://img.shields.io/badge/LinkedIn-FarhanReza-blue
 [linked-url]: https://www.linkedin.com/in/farhan7reza7/
+[codecov-img]: https://codecov.io/gh/farhan7reza7/diff-ymd-package/graph/badge.svg?token=UZWFE2WAJF
+[codecov-url]: https://codecov.io/gh/farhan7reza7/diff-ymd-package
