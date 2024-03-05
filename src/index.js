@@ -44,9 +44,13 @@ const diffDates = require('./diff-dates');
  * @param {string} date (type- String but Number for epoch, and Object for dateObject) - The date to be differed, in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject or Timestamp(epoch).
  * @returns {DatesYMD} An object containing methods for date difference calculations.
  */
-Date.prototype.diff = function (date) {
-  return diffDates(this, date);
+
+function init() {
+  Date.prototype.diff = function (date) {
+    return diffDates(this, date);
+  } 
 };
+init();
 
 // Export the DatesYMD class and equivalent function diffDates for usages in other modules
 module.exports = DatesYMD; // default export for class
