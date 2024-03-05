@@ -3,8 +3,7 @@
  *
  * @class
  */
-const DatesYMD = require("./DatesYMD");
-
+const DatesYMD = require('./DatesYMD');
 
 /**
  * Represents a utility for calculating the difference between two dates in formatted or desired customized ways.
@@ -32,7 +31,22 @@ const DatesYMD = require("./DatesYMD");
  *
  * @returns {DatesYMD} An object containing methods for date difference calculations.
  */
-const diffDates = require("./diff-dates");
+const diffDates = require('./diff-dates');
+
+/**
+ * Makes the `diff` method available as the method of the Date object on importing the diff-ymd-package.
+ *
+ * This method creates an instance of DatesYMD to calculates the difference between Date instance and the passed date.
+ *
+ * @function
+ * @memberof Date.prototype
+ * @name diff
+ * @param {string} date (type- String but Number for epoch, and Object for dateObject) - The date to be differed, in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or yyyy.mm.dd or dateString or dateObject or Timestamp(epoch).
+ * @returns {DatesYMD} An object containing methods for date difference calculations.
+ */
+Date.prototype.diff = function (date) {
+  return diffDates(this, date);
+};
 
 // Export the DatesYMD class and equivalent function diffDates for usages in other modules
 module.exports = DatesYMD; // default export for class
