@@ -52,5 +52,6 @@ export function config(Date) {
 
 // Export the DatesYMD class and equivalent function diffDates for usages in other modules
 //module.exports = DatesYMD; // default export for class
+module.exports= config; // named export for integrating to Date
 module.exports.diffDates = diffDates; // named export for equivalent function
-module.exports.config = config; // named export for integrating to Date
+//module.exports.config = config; // named export for integrating to Date
