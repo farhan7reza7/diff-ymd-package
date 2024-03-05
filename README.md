@@ -76,6 +76,17 @@ const DatesYMD = require('diff-ymd-package'); // can use any if authenticated
 
 ```
 
+**`OR` for version `3.1.0` and `above`**
+
+**Can use simplified function `diff` as Global Date Object method**
+
+```javascript
+//require('@farhan7reza7/diff-ymd-package'); //or
+
+require('diff-ymd-package'); // can use any if authenticated
+
+```
+
 ### `Create an instance:`
 
 ```javascript
@@ -93,8 +104,25 @@ const Formatter = new DatesYMD(date1, date2);
 const date1 = '2022-01-01';
 const date2 = '2023-12-31';
 
-const Formatter = DatesYMD.diffDates(date1, date2); // can use any
+const Formatter = DatesYMD.diffDates(date1, date2); 
 ```
+
+**`OR` for version `3.1.0` and `above`**
+
+**Can use simplified function `diff` as Global Date Object method**
+
+```javascript
+const date1 = '2022-01-01';
+const date2 = '2023-12-31';
+
+const DateInstance = new Date(date1); // create Global Date instance
+
+const Formatter = DateInstance.diff(date2); //create an instance to `calculates the difference` between `Date instance` and the `date passed to it`
+
+```
+**Note:** For `diff` as `Global Date method`, `only one date(the date to be subtracted from/to Global Date instance)` passed to `diff method`
+
+**`diff` method create an instance of DatesYMD to `calculates the difference` between `Date instance` and the `date passed to it`**
 
 **Note:** For CDN based, only **DatesYMD** constructor name creates an instance, and can use diffDates as well, but only using global **DatesYMD** like **DatesYMD.diffDates(...)**
 
