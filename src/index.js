@@ -45,11 +45,12 @@ const diffDates = require('./diff-dates');
  * @returns {DatesYMD} An object containing methods for date difference calculations.
  */
 
-function() {
+function init() {
   Date.prototype.diff = function (date) {
     return diffDates(this, date);
   } 
-}();
+};
+init();
 
 // Export the DatesYMD class and equivalent function diffDates for usages in other modules
 module.exports = DatesYMD; // default export for class
