@@ -157,7 +157,7 @@ const Formatter = DatesYMD.diffDates(date1, date2);
 
 ### `For diff as Global Date Object method in NODE/Browser(CDN based):`
 
-**version `3.1.0` and `above`**
+**for version `3.1.0` and `above`**
 
 **Can use simplified function `diff` as Global Date Object method**
 
@@ -261,11 +261,13 @@ console.log(secondsDifference); // Output: 62985600
 ```
 
 ## API References
+
 **diff-ymd-package**
 - [Classes](#api-documentation)
   - [DatesYMD](#datesymd)
     - [Create an instance of DatesYMD](#create-an-instance-of-datesymd)
     - [OR for version 2.x.x and above, Can use simplified function diffDates on module-object](#can-use-simplified-function-diffdates-on-module-object)
+    - [OR for version 3.1.x and above, Can use simplified function diff as Global Date Object method](#or-for-version-31x-and-above)
     - [Methods](#methods)
         - [diffArray()](#diffarray)
         - [formattedYMD()](#formattedymd)
@@ -298,6 +300,17 @@ const Formatter = new DatesYMD(firstDate, secondDate);
 const DatesYMD = require('diff-ymd-package');
 
 const Formatter = DatesYMD.diffDates(firstDate, secondDate); // can use any
+
+```
+
+#### `OR` for version 3.1.x and above
+##### Can use simplified function `diff` as Global Date Object method
+
+```javascript
+const DateInstance = new Date(firstDate); // create Global Date instance
+
+const Formatter = DateInstance.diff(secondDate); //create an instance to `calculates the difference` between `Date instance` and the `date passed to it`
+
 ```
 
 - **`firstDate`**: The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or 'yyyy.mm.dd' or dateString or dateObject
@@ -306,11 +319,10 @@ const Formatter = DatesYMD.diffDates(firstDate, secondDate); // can use any
 - **`secondDate`**: The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or 'yyyy.mm.dd' or dateString or dateObject
   or Timestamp(epoch).
 
-- **Special case:** empty string("" or '') is by default to current-date(today) for the parameters
+- **Special case:** empty string("" or '') is by default to current-date(today) for the parameters, `but not when passed to Global Date` as firstDate above in Global Date; `for creating current date Date instance using Date`, just call empty like `new Date()`
 
 - **`Returns:`**
   An instance of DatesYMD class.
-
 
 ### `Methods:`
 
