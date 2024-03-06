@@ -305,10 +305,17 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 - Updated codebase for updating diff to best practiced 
 - fixed some other issues and configured files for v3.1.1
 
+### [v3.1.2]
+
+#### Fixed
+
+- updated doc for documenting latest Global Date integration following best practices
+- fixed some other issues and configured files for v2.3.2
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.1.1...HEAD)
-- [v3.1.1](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.1.1)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.1.2...HEAD)
+- [v3.1.2](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.1.2)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
