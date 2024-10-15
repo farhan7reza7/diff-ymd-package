@@ -26,6 +26,13 @@ declare function diffDates(
   secondDate: string | number | Date,
 ): DatesYMD;
 
+// Extend the global Date interface to add the `diff` method
+declare global {
+  interface Date {
+    diff(secondDate: string | number | Date): DatesYMD;
+  }
+}
+
 // The hybrid CommonJS module export:
 declare const diffYMDPackage: typeof DatesYMD & {
   diffDates: typeof diffDates;
