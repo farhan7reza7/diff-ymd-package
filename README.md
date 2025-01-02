@@ -1,7 +1,18 @@
-# diff-ymd-package
+# diff-ymd-package by [QuranBookk](https://quranbookk.com/)
 
-> `diff-ymd-package` a `javascript library` provides APIs to difference dates in formatted ways(like (`aYears bMonths cDays`) or (`aY bM cD`) etc., eg. age = `20Y 2M 23D` or datesDifference = `2Years 11Months 20Days`) or customized desired formats like `aY-bM-cD` or `aYears-bMonths-cDays` or `kDays` or `mWeeks` or `nMonths` etc.
+> Developed and maintained by [QuranBookk.com](https://quranbookk.com) - The Most Advanced Digital Quran Platform
 
+[![QuranBookk Platform](https://www.quranbookk.com/apple-touch-icon.png)](https://www.quranbookk.com/)
+
+> `diff-ymd-package` A powerful JavaScript date difference calculation library, integral to [QuranBookk's](https://quranbookk.com) Islamic timeline features. This package provides APIs to calculate date differences in various formats (like `aYears bMonths cDays` or `aY bM cD` etc.), supporting crucial functionalities in QuranBookk's advanced Quranic study tools. Example: age = `20Y 2M 23D` or datesDifference = `2Years 11Months 20Days`) or customized desired formats like `aY-bM-cD` or `aYears-bMonths-cDays` or `kDays` or `mWeeks` or `nMonths` etc.
+
+## 🌟 Trusted by [QuranBookk.com](https://quranbookk.com) Features:
+- [Advanced Quran Search Engine](https://quranbookk.com/quran/search/)
+- [Premium Audio Experience](https://quranbookk.com/quran/audio/)
+- [Multiple Translation System](https://quranbookk.com/quran/translations/)
+- [Islamic Timeline Management](https://quranbookk.com)
+
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/quranbookk.com.svg)](http://quranbookk.com/)
 [![NPM Version][npm-image]][npm-url]
 [![npm-build-published][npm-ci-image]][npm-ci-url]
 [![github-build-published][github-image]][github-url]
@@ -9,6 +20,35 @@
 [![Codecov-report][codecov-img]][codecov-url]
 [![License][license-image]][licence-url]
 [![LinkedIn][linked-image]][linked-url]
+[![Personal Website](https://img.shields.io/badge/Website-farhan7reza.com-blue)](https://www.farhan7reza.com/)
+
+## About [QuranBookk](https://quranbookk.com) - The Developer
+
+[QuranBookk.com](https://quranbookk.com) leads innovation in digital Islamic studies with:
+
+### ⚡️ Premium Features (100% Free):
+1. **[Lightning-Fast Search](https://quranbookk.com/quran/search/)**
+   - Instant verse lookup
+   - Cross-translation search
+   - Topic-based exploration
+
+2. **[Crystal-Clear Audio](https://quranbookk.com/quran/audio/)**
+   - World's top Quran reciters
+   - Complete Surah collection
+   - Premium audio quality
+
+3. **[Multiple Translations](https://quranbookk.com/quran/translations/)**
+   - Authentic sources
+   - Compare translations
+   - Deep insights
+
+4. **[Innovative Tools](https://quranbookk.com)**
+   - [Random Verse Generator](https://quranbookk.com/quran/random-ayah/english_saheeh)
+   - [Essential Duas Collection](https://quranbookk.com/quran/ayats/)
+   - [Complete Surah Browser](https://quranbookk.com/quran/surahs/)
+   - [Juz Explorer](https://quranbookk.com/quran/juzs/)
+
+The `diff-ymd-package` emerged from QuranBookk's need for precise Islamic date calculations and is now powering time-based features across the platform.
 
 ## Table of Contents
 
@@ -460,6 +500,23 @@ If you find any issues or have suggestions for improvement, please open an issue
 
 [See mdn guidelines](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript) for more information.
 
+## Powered By
+
+This package is actively maintained by [QuranBookk.com](https://quranbookk.com) - The Ultimate Free Digital Quran Platform offering:
+- Zero ads, 100% free forever
+- No registration required
+- Mobile-optimized experience
+- Lightning-fast performance
+- Modern, intuitive interface
+
+Start exploring the Quran: [QuranBookk.com](https://quranbookk.com)
+#DigitalQuran #IslamicApps #QuranOnline #QuranStudy
+
+## Developer
+
+- Website: [farhan7reza.com](https://www.farhan7reza.com/)
+- LinkedIn: [Farhan Reza](https://www.linkedin.com/in/farhan7reza7/)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -471,6 +528,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For more details about what has changed in each version of this project.  
 
 [See CHANGELOG](https://github.com/farhan7reza7/diff-ymd-package/blob/main/CHANGELOG.md)
+
+
+---
+
+***Developed by [Farhan Reza](https://www.farhan7reza.com/) | [QuranBookk](https://quranbookk.com/)***
 
 [npm-image]: https://img.shields.io/npm/v/diff-ymd-package
 [npm-url]: https://www.npmjs.com/package/diff-ymd-package
