@@ -327,10 +327,16 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 
 - added type for global Date integrated diff method in diff-ymd-package.d.ts for hinting in editor
 
+### [v3.1.5]
+
+#### Fixed
+
+- added details about parent developer QuranBookk.com and fixing token to latestes date
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.1.4...HEAD)
-- [v3.1.4](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.1.4)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.1.5...HEAD)
+- [v3.1.5](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.1.5)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
