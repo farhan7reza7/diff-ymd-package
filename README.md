@@ -12,15 +12,15 @@
 - [Multiple Translation System](https://quranbookk.com/quran/translations/)
 - [Islamic Timeline Management](https://quranbookk.com)
 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/quranbookk.com.svg)](http://quranbookk.com/)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/quranbookk.com.svg)](https://quranbookk.com/)
 [![NPM Version][npm-image]][npm-url]
 [![npm-build-published][npm-ci-image]][npm-ci-url]
 [![github-build-published][github-image]][github-url]
 [![CI][ci-image]][ci-url]
 [![Codecov-report][codecov-img]][codecov-url]
 [![License][license-image]][licence-url]
-[![LinkedIn][linked-image]][linked-url]
 [![Personal Website](https://img.shields.io/badge/Website-farhan7reza.com-blue)](https://www.farhan7reza.com/)
+[![LinkedIn][linked-image]][linked-url]
 
 ## About [QuranBookk](https://quranbookk.com) - The Developer
 
