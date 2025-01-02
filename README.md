@@ -20,6 +20,7 @@
 [![Codecov-report][codecov-img]][codecov-url]
 [![License][license-image]][licence-url]
 [![LinkedIn][linked-image]][linked-url]
+[![Personal Website](https://img.shields.io/badge/Website-farhan7reza.com-blue)](https://www.farhan7reza.com/)
 
 ## About [QuranBookk](https://quranbookk.com) - The Developer
 
@@ -511,6 +512,11 @@ This package is actively maintained by [QuranBookk.com](https://quranbookk.com) 
 Start exploring the Quran: [QuranBookk.com](https://quranbookk.com)
 #DigitalQuran #IslamicApps #QuranOnline #QuranStudy
 
+## Developer
+
+- Website: [farhan7reza.com](https://www.farhan7reza.com/)
+- LinkedIn: [Farhan Reza](https://www.linkedin.com/in/farhan7reza7/)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -524,7 +530,9 @@ For more details about what has changed in each version of this project.
 [See CHANGELOG](https://github.com/farhan7reza7/diff-ymd-package/blob/main/CHANGELOG.md)
 
 
+---
 
+***Developed by [Farhan Reza](https://www.farhan7reza.com/) | [QuranBookk](https://quranbookk.com/)***
 
 [npm-image]: https://img.shields.io/npm/v/diff-ymd-package
 [npm-url]: https://www.npmjs.com/package/diff-ymd-package
