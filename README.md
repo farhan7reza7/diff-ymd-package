@@ -24,29 +24,21 @@
 
 ## About [QuranBookk](https://quranbookk.com) - The Developer
 
-[QuranBookk.com](https://quranbookk.com) leads innovation in digital Islamic studies with:
+**[`QuranBookk.com:`](https://www.QuranBookk.com)** QuranBookk.com offers a **powerful suite of Quranic and Islamic tools and contents** designed to enhance your daily spiritual journey. With clean UI, multilingual access, and responsive design, it’s the go-to digital Islam and Quran platform for modern Muslims.
+ 
+### ✨ Key Features:
 
-### ⚡️ Premium Features (100% Free):
-1. **[Lightning-Fast Search](https://quranbookk.com/quran/search/)**
-   - Instant verse lookup
-   - Cross-translation search
-   - Topic-based exploration
-
-2. **[Crystal-Clear Audio](https://quranbookk.com/quran/audio/)**
-   - World's top Quran reciters
-   - Complete Surah collection
-   - Premium audio quality
-
-3. **[Multiple Translations](https://quranbookk.com/quran/translations/)**
-   - Authentic sources
-   - Compare translations
-   - Deep insights
-
-4. **[Innovative Tools](https://quranbookk.com)**
-   - [Random Verse Generator](https://quranbookk.com/quran/random-ayah/english_saheeh)
-   - [Essential Duas Collection](https://quranbookk.com/quran/ayats/)
-   - [Complete Surah Browser](https://quranbookk.com/quran/surahs/)
-   - [Juz Explorer](https://quranbookk.com/quran/juzs/)
+- 🎧 **[Listen to Top Reciters](https://www.quranbookk.com/quran/audio)** – High-quality audio recitations from world-renowned Qaris  
+- 🎥 **[Watch Quran Videos](https://www.quranbookk.com/quran/video)** – Inspirational Quranic recitation and learning videos  
+- 🌍 **[Read Top Translations](https://www.quranbookk.com/quran/translations)** – Multiple language support with leading Quran translations  
+- 🕋 **[Qibla Direction Finder](https://www.quranbookk.com/qibla-finder)** – Accurate Kaaba direction from anywhere in the world  
+- 🕰️ **[Islamic Prayer Times](https://www.quranbookk.com/prayer-times)** – Updated Salah timings based on your current location  
+- 📿 **[Digital Tasbih Counter](https://www.quranbookk.com/digital-tasbih)** – Count your Dhikr anytime, anywhere  
+- 📚 **[Authentic Hadith Collections](https://www.quranbookk.com/hadiths/hadiths-sources)** – Sahih Bukhari, Sahih Muslim, and more  
+- 🕯️ **[Top Quranic Duas](https://www.quranbookk.com/quran/ayats)** – Beautiful supplications with translations  
+- 🔍 **[Advanced Quran Search](https://www.quranbookk.com/quran/search)** – Search verses, words, topics in seconds  
+- 📖 **[Explore Surahs](https://www.quranbookk.com/quran/surahs)** – Full Quran access with audio, video, and translations
+- 📖 **[Explore Juzs (Paras)](https://www.quranbookk.com/quran/juzs)** – Full Quran access with audio, video, and translations
 
 The `diff-ymd-package` emerged from QuranBookk's need for precise Islamic date calculations and is now powering time-based features across the platform.
 
