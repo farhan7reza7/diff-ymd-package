@@ -333,10 +333,16 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 
 - added details about parent developer QuranBookk.com and fixing token to latestes date
 
+### [v3.1.6]
+
+#### Fixed
+
+- updated details about parent developer QuranBookk.com and fixing token to latest date
+
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.1.5...HEAD)
-- [v3.1.5](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.1.5)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.1.6...HEAD)
+- [v3.1.6](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.1.6)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
