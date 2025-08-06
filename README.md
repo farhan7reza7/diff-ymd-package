@@ -34,8 +34,8 @@
 - 🕋 **[Qibla Direction Finder](https://www.quranbookk.com/qibla-finder)** – Accurate Kaaba direction from anywhere in the world  
 - 🕰️ **[Islamic Prayer Times](https://www.quranbookk.com/prayer-times)** – Updated Salah timings based on your current location  
 - 📿 **[Digital Tasbih Counter](https://www.quranbookk.com/digital-tasbih)** – Count your Dhikr anytime, anywhere  
-- 🤖 **[Ask Shia AI](https://www.quranbookk.com/ask-shia-ai)** – AI-powered assistant for Shia Islamic questions, Quran, and Hadiths
-- 🤖 **[Ask Sunni AI](https://www.quranbookk.com/ask-sunni-ai)** – AI-powered assistant for Sunni Islamic questions and Hadiths
+- 🤖 **[Ask Islam AI](https://www.quranbookk.com/ask-islam-ai)** – AI-powered assistant for Shia Islamic questions, Quran, and Hadiths
+- 🤖 **[Ask Hadith AI](https://www.quranbookk.com/ask-hadith-ai)** – AI-powered assistant for Sunni Islamic questions and Hadiths
 - 📚 **[Authentic Hadith Collections](https://www.quranbookk.com/hadiths/hadiths-sources)** – Sahih Bukhari, Sahih Muslim, and more  
 - 🕯️ **[Top Quranic Duas](https://www.quranbookk.com/quran/ayats)** – Beautiful supplications with translations  
 - 🔍 **[Advanced Quran Search](https://www.quranbookk.com/quran/search)** – Search verses, words, topics in seconds  
