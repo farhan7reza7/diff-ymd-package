@@ -37,7 +37,8 @@
 - 🕰️ **[Islamic Prayer Times](https://www.quranbookk.com/prayer-times)** – Updated Salah timings based on your current location
 - 🕰️ **[Worldwide Islamic Prayer Times](https://www.quranbookk.com/prayer-times/worldwide)** – Updated Salah timings for any country, state, or city of the world
 - 📿 **[Digital Tasbih Counter](https://www.quranbookk.com/digital-tasbih)** – Count your Dhikr anytime, anywhere  
-- 📅 **[Islamic Hijri Calendar](https://www.quranbookk.com/islamic-calendar)** – Get accurate Hijri calendar with sunset based location aware calculations
+- 📅 **[Islamic Calendar Finder](https://www.quranbookk.com/islamic-calendar)** – Get accurate Hijri calendar with sunset based location aware calculations
+- 📅 **[Global Hijri Calendars](https://www.quranbookk.com/islamic-calendar/worldwide)** – Get accurate Hijri calendar with prayer times for any country, state or city of the world
 - 🤖 **[Ask Islam AI](https://www.quranbookk.com/ask-islam-ai)** – AI-powered assistant for Islamic questions, Quran, and Hadiths
 - 🤖 **[Ask Quran AI](https://www.quranbookk.com/ask-quran-ai)** – AI-powered assistant for answering about Islamic history, Quran, and Hadiths
 - 🤖 **[Ask Hadith AI](https://www.quranbookk.com/ask-hadith-ai)** – AI-powered assistant for Hadiths
