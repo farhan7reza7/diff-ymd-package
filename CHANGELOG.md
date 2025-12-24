@@ -368,14 +368,21 @@ fixed some issues and configured files for publishing diff-ymd-package v2.0.2 on
 #### Fixed
 
 - updated details about parent developer QuranBookk.com
+
+### [v3.1.12]
+
+#### Fixed
+
+- updated details about parent developer QuranBookk.com
   
 ### [Next Release] - Collecting issues and new features for next release
 
 ### Important changes links:
 
-- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.1.11...HEAD)
-- [v3.1.11](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.1.11)
+- [Unreleased](https://github.com/farhan7reza7/diff-ymd-package/compare/v3.1.12...HEAD)
+- [v3.1.12](https://github.com/farhan7reza7/diff-ymd-package/releases/tag/v3.1.12)
 - [Next Release](https://github.com/farhan7reza7/diff-ymd-package/milestone/2)
+
 
 
 
